@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC 3 search" time="96.727" tests="5" failures="1" skips="0" errors="0">
+   <testsuite name="UC 3 search" tests="5" failures="1" errors="0" time="96.727" skips="0" timestamp="2564-03-09 23:41:38" hostname="user - DESKTOP-IAP8AF6" id="Test Suites/UC 3 search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\OneDrive\\Desktop\\Katalon_Alumni\\Reports\\25640309_234052\\UC 3 search\\25640309_234058"/>
+         <property name="logFiles" value="C:\\Users\\user\\OneDrive\\Desktop\\Katalon_Alumni\\Reports\\25640309_234052\\UC 3 search\\25640309_234058\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\OneDrive\\Desktop\\Katalon_Alumni\\Reports\\25640309_234052\\UC 3 search\\25640309_234058\\1615308136131.png"/>
+         <property name="hostName" value="user - DESKTOP-IAP8AF6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Edge Chromium 89"/>
+         <property name="hostAddress" value="192.168.1.120"/>
+         <property name="sessionId" value="6b113dbd2d0efabe111c597a3ad32a34"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search/TC 301 search by id" time="33.29" classname="Test Cases/Search/TC 301 search by id" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615308058615.run(TempTestSuite1615308058615.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=89.0.774.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IAP8AF6', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.45, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60408}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adc024029d2a2ff85e9419db365a2ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2564-03-09 23:41:44 - [TEST_CASE][FAILED] - Test Cases/Search/TC 301 search by id: Test Cases/Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615308058615.run(TempTestSuite1615308058615.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=89.0.774.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IAP8AF6', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.45, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60408}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adc024029d2a2ff85e9419db365a2ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2564-03-09 23:41:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-09 23:41:50 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-09 23:41:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-09 23:41:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-09 23:41:58 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:41:58 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:41:58 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-09 23:42:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-09 23:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-09 23:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-09 23:42:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Username"), "thanayut1"): Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-09 23:42:05 - [MESSAGE][PASSED] - Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-09 23:42:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), "SFTQUhjBfIY="): Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-09 23:42:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-09 23:42:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-09 23:42:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-09 23:42:15 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/i__fas fa-search")): Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615308058615.run(TempTestSuite1615308058615.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=89.0.774.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IAP8AF6', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.45, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60408}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adc024029d2a2ff85e9419db365a2ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1615299437186.run(Script1615299437186.groovy:33)
+	... 13 more
+)
+
+2564-03-09 23:42:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615308058615.run(TempTestSuite1615308058615.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=89.0.774.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IAP8AF6', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.45, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60408}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adc024029d2a2ff85e9419db365a2ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1615299437186.run(Script1615299437186.groovy:33)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\user\\OneDrive\\Desktop\\Katalon_Alumni\\Reports\\25640309_234052\\UC 3 search\\25640309_234058\\1615308136131.png]]]]></system-out>
+         <system-err><![CDATA[2564-03-09 23:41:44 - [TEST_CASE][FAILED] - Test Cases/Search/TC 301 search by id: Test Cases/Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615308058615.run(TempTestSuite1615308058615.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=89.0.774.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IAP8AF6', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.45, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60408}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adc024029d2a2ff85e9419db365a2ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 302 search by name" time="15.17" classname="Test Cases/Search/TC 302 search by name" status="PASSED">
+         <system-out><![CDATA[2564-03-09 23:42:18 - [TEST_CASE][PASSED] - Test Cases/Search/TC 302 search by name: Test Cases/Search/TC 302 search by name
+
+2564-03-09 23:42:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-09 23:42:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2564-03-09 23:42:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-09 23:42:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-09 23:42:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-09 23:42:23 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:42:23 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:42:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:42:27 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:42:27 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-09 23:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-09 23:42:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "Thanayut Samsang"): Text 'Thanayut Samsang' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-09 23:42:30 - [MESSAGE][PASSED] - Text 'Thanayut Samsang' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-09 23:42:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:42:31 - [TEST_STEP][PASSED] - verifyTextPresent("Thanayut Samsang", false): Text 'Thanayut Samsang' is present on page 
+
+2564-03-09 23:42:32 - [MESSAGE][PASSED] - Text 'Thanayut Samsang' is present on page 
+
+2564-03-09 23:42:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-09 23:42:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 303 search by graduation year" time="19.18" classname="Test Cases/Search/TC 303 search by graduation year" status="PASSED">
+         <system-out><![CDATA[2564-03-09 23:42:33 - [TEST_CASE][PASSED] - Test Cases/Search/TC 303 search by graduation year: Test Cases/Search/TC 303 search by graduation year
+
+2564-03-09 23:42:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-09 23:42:35 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-09 23:42:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-09 23:42:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-09 23:42:38 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:42:39 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:42:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:42:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:42:44 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/search_buttonYear")): Object: 'Object Repository/search/Page_NPRU Alumni/search_buttonYear' is clicked on
+
+2564-03-09 23:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/search_buttonYear' is clicked on
+
+2564-03-09 23:42:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__End_Year"), "2561"): Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-09 23:42:48 - [MESSAGE][PASSED] - Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-09 23:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:42:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:42:50 - [TEST_STEP][PASSED] - verifyTextPresent("2561", false): Text '2561' is present on page 
+
+2564-03-09 23:42:50 - [MESSAGE][PASSED] - Text '2561' is present on page 
+
+2564-03-09 23:42:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-09 23:42:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 304 search by Email" time="11.796" classname="Test Cases/Search/TC 304 search by Email" status="PASSED">
+         <system-out><![CDATA[2564-03-09 23:42:52 - [TEST_CASE][PASSED] - Test Cases/Search/TC 304 search by Email: Test Cases/Search/TC 304 search by Email
+
+2564-03-09 23:42:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-09 23:42:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-09 23:42:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-09 23:42:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-09 23:42:56 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:42:57 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:42:57 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:43:00 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:43:00 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-09 23:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-09 23:43:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "614259052@webmail.npru.ac.th"): Text '614259052@webmail.npru.ac.th' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-09 23:43:02 - [MESSAGE][PASSED] - Text '614259052@webmail.npru.ac.th' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-09 23:43:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:43:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:43:03 - [TEST_STEP][PASSED] - verifyTextPresent("รหัสนักศึกษา", false): Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-09 23:43:03 - [MESSAGE][PASSED] - Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-09 23:43:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-09 23:43:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 305 search by sex" time="10.017" classname="Test Cases/Search/TC 305 search by sex" status="PASSED">
+         <system-out><![CDATA[2564-03-09 23:43:04 - [TEST_CASE][PASSED] - Test Cases/Search/TC 305 search by sex: Test Cases/Search/TC 305 search by sex
+
+2564-03-09 23:43:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-09 23:43:06 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-09 23:43:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-09 23:43:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-09 23:43:08 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:43:08 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-09 23:43:08 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:43:10 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-09 23:43:10 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-09 23:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-09 23:43:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "ชาย"): Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-09 23:43:12 - [MESSAGE][PASSED] - Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-09 23:43:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-09 23:43:12 - [TEST_STEP][PASSED] - verifyTextPresent("รหัสนักศึกษา", false): Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-09 23:43:13 - [MESSAGE][PASSED] - Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-09 23:43:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-09 23:43:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2564-03-09 23:41:38 - [TEST_SUITE][FAILED] - UC 3 search: Test Cases/Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615308058615.run(TempTestSuite1615308058615.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=89.0.774.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IAP8AF6', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.45, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60408}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adc024029d2a2ff85e9419db365a2ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2564-03-09 23:41:38 - [TEST_SUITE][FAILED] - UC 3 search: Test Cases/Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1615308058615.run(TempTestSuite1615308058615.groovy:39)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=89.0.774.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-IAP8AF6', ip: '192.168.1.120', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CEdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 89.0.774.45, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60408}, msedge: {msedgedriverVersion: 88.0.705.81 (324d415ccf2f0d..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1adc024029d2a2ff85e9419db365a2ba
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.execute(CEdgeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

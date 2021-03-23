@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC 3 search" time="190.31" tests="5" failures="1" skips="0" errors="0">
+   <testsuite name="UC 3 search" tests="5" failures="1" errors="0" time="190.31" skips="0" timestamp="2564-03-23 20:01:15" hostname="Dell - DESKTOP-775C11H" id="Test Suites/UC 3 search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_200019\\UC 3 search\\25640323_200026"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_200019\\UC 3 search\\25640323_200026\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_200019\\UC 3 search\\25640323_200026\\1616504552020.png"/>
+         <property name="hostName" value="Dell - DESKTOP-775C11H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.1.128"/>
+         <property name="sessionId" value="347d00a503fcd20c19c75e70c432a385"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC3_Search/TC 301 search by id" time="79.493" classname="Test Cases/UC3_Search/TC 301 search by id" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UC3_Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616504426997.run(TempTestSuite1616504426997.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' located by '//*[@id=&quot;Std_ID&quot;]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2564-03-23 20:01:16 - [TEST_CASE][FAILED] - Test Cases/UC3_Search/TC 301 search by id: Test Cases/UC3_Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616504426997.run(TempTestSuite1616504426997.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' located by '//*[@id="Std_ID"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2564-03-23 20:01:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 20:01:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 20:01:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 20:01:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 20:01:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:01:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:01:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:01:43 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:01:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:01:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a")): Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 20:01:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 20:01:59 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_id")): Object: 'Object Repository/search/Page_NPRU Alumni/button_id' is clicked on
+
+2564-03-23 20:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_id' is clicked on
+
+2564-03-23 20:02:00 - [TEST_STEP][FAILED] - click(findTestObject("search/Page_NPRU Alumni/input__Std_ID")): Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616504426997.run(TempTestSuite1616504426997.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' located by '//*[@id="Std_ID"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1615454067757.run(Script1615454067757.groovy:35)
+	... 13 more
+)
+
+2564-03-23 20:02:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="Std_ID"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2564-03-23 20:02:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616504426997.run(TempTestSuite1616504426997.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' located by '//*[@id="Std_ID"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1615454067757.run(Script1615454067757.groovy:35)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_200019\\UC 3 search\\25640323_200026\\1616504552020.png]]]]></system-out>
+         <system-err><![CDATA[2564-03-23 20:01:16 - [TEST_CASE][FAILED] - Test Cases/UC3_Search/TC 301 search by id: Test Cases/UC3_Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616504426997.run(TempTestSuite1616504426997.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' located by '//*[@id="Std_ID"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 302 search by name" time="47.848" classname="Test Cases/UC3_Search/TC 302 search by name" status="PASSED">
+         <system-out><![CDATA[2564-03-23 20:02:36 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 302 search by name: Test Cases/UC3_Search/TC 302 search by name
+
+2564-03-23 20:02:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 20:02:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2564-03-23 20:02:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 20:02:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 20:02:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 20:02:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:02:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:02:45 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:02:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:02:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:02:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:03:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:03:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a")): Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 20:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 20:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a__1")): Object: 'Object Repository/Page_NPRU Alumni/a__1' is clicked on
+
+2564-03-23 20:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a__1' is clicked on
+
+2564-03-23 20:03:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "ธนายุทธ"): Text 'ธนายุทธ' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 20:03:21 - [MESSAGE][PASSED] - Text 'ธนายุทธ' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 20:03:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:03:23 - [TEST_STEP][PASSED] - verifyTextPresent("614259018", false): Text '614259018' is present on page 
+
+2564-03-23 20:03:23 - [MESSAGE][PASSED] - Text '614259018' is present on page 
+
+2564-03-23 20:03:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 20:03:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 303 search by school year" time="24.268" classname="Test Cases/UC3_Search/TC 303 search by school year" status="PASSED">
+         <system-out><![CDATA[2564-03-23 20:03:24 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 303 search by school year: Test Cases/UC3_Search/TC 303 search by school year
+
+2564-03-23 20:03:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 20:03:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 20:03:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 20:03:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 20:03:27 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:03:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:03:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:03:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:03:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:03:35 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:03:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:03:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:03:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/i__fas fa-search")): Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 20:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 20:03:42 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_yaer")): Object: 'Object Repository/search/Page_NPRU Alumni/button_yaer' is clicked on
+
+2564-03-23 20:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_yaer' is clicked on
+
+2564-03-23 20:03:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__End_Year"), "2561"): Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 20:03:46 - [MESSAGE][PASSED] - Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 20:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:03:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:03:47 - [TEST_STEP][PASSED] - verifyTextPresent("61/100", false): Text '61/100' is present on page 
+
+2564-03-23 20:03:48 - [MESSAGE][PASSED] - Text '61/100' is present on page 
+
+2564-03-23 20:03:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 20:03:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 304 search by classroom" time="19.114" classname="Test Cases/UC3_Search/TC 304 search by classroom" status="PASSED">
+         <system-out><![CDATA[2564-03-23 20:03:49 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 304 search by classroom: Test Cases/UC3_Search/TC 304 search by classroom
+
+2564-03-23 20:03:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 20:03:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 20:03:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 20:03:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 20:03:52 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:03:57 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:03:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:03:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:03:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:03:58 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:03:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:03:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:03:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:04:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 20:04:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/i__fas fa-search")): Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 20:04:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 20:04:03 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_classroom")): Object: 'Object Repository/search/Page_NPRU Alumni/button_classroom' is clicked on
+
+2564-03-23 20:04:05 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_classroom' is clicked on
+
+2564-03-23 20:04:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__classroom"), "61/100"): Text '61/100' is set on object 'Object Repository/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 20:04:05 - [MESSAGE][PASSED] - Text '61/100' is set on object 'Object Repository/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 20:04:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:04:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:04:06 - [TEST_STEP][PASSED] - verifyTextPresent("2561", false): Text '2561' is present on page 
+
+2564-03-23 20:04:07 - [MESSAGE][PASSED] - Text '2561' is present on page 
+
+2564-03-23 20:04:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 20:04:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 305 search by city" time="16.331" classname="Test Cases/UC3_Search/TC 305 search by city" status="PASSED">
+         <system-out><![CDATA[2564-03-23 20:04:08 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 305 search by city: Test Cases/UC3_Search/TC 305 search by city
+
+2564-03-23 20:04:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 20:04:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 20:04:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 20:04:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 20:04:11 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 20:04:11 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 20:04:11 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:04:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 20:04:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:04:12 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 20:04:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Username"), "thanayut1"): Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:04:16 - [MESSAGE][PASSED] - Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 20:04:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), "SFTQUhjBfIY="): Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:04:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:04:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:04:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 20:04:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/i__fas fa-search")): Object: 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 20:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 20:04:19 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-23 20:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-23 20:04:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "ชาย"): Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 20:04:21 - [MESSAGE][PASSED] - Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 20:04:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 20:04:22 - [TEST_STEP][PASSED] - verifyTextPresent("รหัสนักศึกษา", false): Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-23 20:04:23 - [MESSAGE][PASSED] - Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-23 20:04:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 20:04:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2564-03-23 20:01:15 - [TEST_SUITE][FAILED] - UC 3 search: Test Cases/UC3_Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616504426997.run(TempTestSuite1616504426997.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' located by '//*[@id="Std_ID"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2564-03-23 20:01:15 - [TEST_SUITE][FAILED] - UC 3 search: Test Cases/UC3_Search/TC 301 search by id FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC 301 search by id.run(TC 301 search by id:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616504426997.run(TempTestSuite1616504426997.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' located by '//*[@id="Std_ID"]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

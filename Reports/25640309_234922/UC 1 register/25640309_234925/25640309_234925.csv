@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 1 register,Edge Chromium 89,,,2564-03-09 23:49:44,2564-03-09 23:50:33,48.579s,FAILED
+,,,,,,,
+Test Cases/Register/TC 101 Register pass,Edge Chromium 89,,,2564-03-09 23:49:46,2564-03-09 23:50:09,23.369s,FAILED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:49:46,2564-03-09 23:49:54,7.526s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:49:54,2564-03-09 23:49:54,0.274s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 89,,,2564-03-09 23:49:54,2564-03-09 23:49:56,1.720s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Register""))",Edge Chromium 89,,,2564-03-09 23:49:56,2564-03-09 23:49:57,0.919s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Std_ID""), ""614259088"")",Edge Chromium 89,,,2564-03-09 23:49:57,2564-03-09 23:49:57,0.647s,PASSED
+"setText(findTestObject(""Page_NPRU Alumni/input_name_lname""), ""วรวัต รัตโนนสถ"")",Edge Chromium 89,,,2564-03-09 23:49:57,2564-03-09 23:49:58,0.478s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__ID_Card""), ""1729800227859"")",Edge Chromium 89,,,2564-03-09 23:49:58,2564-03-09 23:49:58,0.365s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Sex""))",Edge Chromium 89,,,2564-03-09 23:49:58,2564-03-09 23:49:59,0.397s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/textarea__Address""), ""88 995/1"")",Edge Chromium 89,,,2564-03-09 23:49:59,2564-03-09 23:49:59,0.364s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Tel""), ""0654887953"")",Edge Chromium 89,,,2564-03-09 23:49:59,2564-03-09 23:49:59,0.363s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__E_mail""), ""hfomck@gmail.com"")",Edge Chromium 89,,,2564-03-09 23:49:59,2564-03-09 23:50:00,0.423s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Facebook""), ""gots"")",Edge Chromium 89,,,2564-03-09 23:50:00,2564-03-09 23:50:00,0.352s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Instagram""), ""the_gots"")",Edge Chromium 89,,,2564-03-09 23:50:00,2564-03-09 23:50:01,0.364s,PASSED
+"setText(findTestObject(""Page_NPRU Alumni/input__Name_LastName""), ""Thanayut"")",Edge Chromium 89,,,2564-03-09 23:50:01,2564-03-09 23:50:01,0.328s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__End_Year""), ""2565"")",Edge Chromium 89,,,2564-03-09 23:50:01,2564-03-09 23:50:01,0.406s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Company_Name""), ""วรวัต รัตโนนสถ"")",Edge Chromium 89,,,2564-03-09 23:50:01,2564-03-09 23:50:02,0.344s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/textarea__Company_Address""), ""88/4 155"")",Edge Chromium 89,,,2564-03-09 23:50:02,2564-03-09 23:50:02,0.316s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Profession""), ""programmer"")",Edge Chromium 89,,,2564-03-09 23:50:02,2564-03-09 23:50:02,0.499s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Rank""))",Edge Chromium 89,,,2564-03-09 23:50:03,2564-03-09 23:50:03,0.302s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/div_                                       _294fb4""))",Edge Chromium 89,,,2564-03-09 23:50:03,2564-03-09 23:50:03,0.325s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Rank""), ""programmer"")",Edge Chromium 89,,,2564-03-09 23:50:03,2564-03-09 23:50:04,0.496s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Company_Tel""), ""0659986698"")",Edge Chromium 89,,,2564-03-09 23:50:04,2564-03-09 23:50:04,0.362s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Username""), ""earth"")",Edge Chromium 89,,,2564-03-09 23:50:04,2564-03-09 23:50:04,0.331s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Password""), ""VIjOZClaB9I="")",Edge Chromium 89,,,2564-03-09 23:50:04,2564-03-09 23:50:05,0.506s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Re_Password""), ""VIjOZClaB9I="")",Edge Chromium 89,,,2564-03-09 23:50:05,2564-03-09 23:50:05,0.303s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__submit""))",Edge Chromium 89,,,2564-03-09 23:50:05,2564-03-09 23:50:06,0.619s,PASSED
+"verifyTextPresent(""614259086"", false)",Edge Chromium 89,,,2564-03-09 23:50:06,2564-03-09 23:50:09,3.461s,FAILED
+,,,,,,,
+Test Cases/Register/TC 102 Register pass,Edge Chromium 89,,,2564-03-09 23:50:09,2564-03-09 23:50:24,14.895s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:50:10,2564-03-09 23:50:12,2.407s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:50:12,2564-03-09 23:50:13,0.211s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 89,,,2564-03-09 23:50:13,2564-03-09 23:50:14,1.162s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Register""))",Edge Chromium 89,,,2564-03-09 23:50:14,2564-03-09 23:50:14,0.636s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Std_ID""), ""614259052"")",Edge Chromium 89,,,2564-03-09 23:50:14,2564-03-09 23:50:15,0.331s,PASSED
+"setText(findTestObject(""Page_NPRU Alumni/input_name_lname""), ""วรวัต รัตโนนสถ"")",Edge Chromium 89,,,2564-03-09 23:50:15,2564-03-09 23:50:15,0.314s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__ID_Card""), ""1729800227859"")",Edge Chromium 89,,,2564-03-09 23:50:15,2564-03-09 23:50:15,0.359s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Sex""))",Edge Chromium 89,,,2564-03-09 23:50:15,2564-03-09 23:50:16,0.389s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/textarea__Address""), ""88 995/1"")",Edge Chromium 89,,,2564-03-09 23:50:16,2564-03-09 23:50:16,0.605s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Tel""), ""0654887953"")",Edge Chromium 89,,,2564-03-09 23:50:16,2564-03-09 23:50:17,0.403s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__E_mail""), ""hfomck@gmail.com"")",Edge Chromium 89,,,2564-03-09 23:50:17,2564-03-09 23:50:17,0.432s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Facebook""), ""gots"")",Edge Chromium 89,,,2564-03-09 23:50:17,2564-03-09 23:50:18,0.590s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Instagram""), ""the_gots"")",Edge Chromium 89,,,2564-03-09 23:50:18,2564-03-09 23:50:18,0.621s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Name_LastName""))",Edge Chromium 89,,,2564-03-09 23:50:18,2564-03-09 23:50:19,0.247s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Name_LastName""), ""วรวัต รัตโนนสถ"")",Edge Chromium 89,,,2564-03-09 23:50:19,2564-03-09 23:50:19,0.431s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__End_Year""), ""2565"")",Edge Chromium 89,,,2564-03-09 23:50:19,2564-03-09 23:50:19,0.240s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Company_Name""), ""วรวัต รัตโนนสถ"")",Edge Chromium 89,,,2564-03-09 23:50:19,2564-03-09 23:50:20,0.346s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/textarea__Company_Address""), ""88/4 155"")",Edge Chromium 89,,,2564-03-09 23:50:20,2564-03-09 23:50:20,0.224s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Profession""), ""programmer"")",Edge Chromium 89,,,2564-03-09 23:50:20,2564-03-09 23:50:20,0.222s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Rank""))",Edge Chromium 89,,,2564-03-09 23:50:20,2564-03-09 23:50:20,0.285s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/div_                                       _294fb4""))",Edge Chromium 89,,,2564-03-09 23:50:20,2564-03-09 23:50:21,0.283s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Rank""), ""programmer"")",Edge Chromium 89,,,2564-03-09 23:50:21,2564-03-09 23:50:21,0.267s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Company_Tel""), ""0659986698"")",Edge Chromium 89,,,2564-03-09 23:50:21,2564-03-09 23:50:21,0.483s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Username""), ""earth1"")",Edge Chromium 89,,,2564-03-09 23:50:21,2564-03-09 23:50:22,0.385s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Password""), ""VIjOZClaB9I="")",Edge Chromium 89,,,2564-03-09 23:50:22,2564-03-09 23:50:22,0.408s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Re_Password""), ""VIjOZClaB9I="")",Edge Chromium 89,,,2564-03-09 23:50:22,2564-03-09 23:50:23,0.263s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__submit""))",Edge Chromium 89,,,2564-03-09 23:50:23,2564-03-09 23:50:23,0.459s,PASSED
+"verifyTextPresent(""A Database Error Occurred"", false)",Edge Chromium 89,,,2564-03-09 23:50:23,2564-03-09 23:50:23,0.108s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-09 23:50:23,2564-03-09 23:50:24,1.025s,PASSED
+,,,,,,,
+Test Cases/Register/TC 103 Register failed,Edge Chromium 89,,,2564-03-09 23:50:24,2564-03-09 23:50:33,8.874s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:50:24,2564-03-09 23:50:27,2.725s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:50:27,2564-03-09 23:50:28,0.286s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 89,,,2564-03-09 23:50:28,2564-03-09 23:50:30,2.121s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Register""))",Edge Chromium 89,,,2564-03-09 23:50:30,2564-03-09 23:50:30,0.772s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Username""), ""earth"")",Edge Chromium 89,,,2564-03-09 23:50:30,2564-03-09 23:50:31,0.486s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Password""), ""VIjOZClaB9I="")",Edge Chromium 89,,,2564-03-09 23:50:31,2564-03-09 23:50:31,0.419s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Re_Password""), ""VIjOZClaB9I="")",Edge Chromium 89,,,2564-03-09 23:50:31,2564-03-09 23:50:32,0.312s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__submit""))",Edge Chromium 89,,,2564-03-09 23:50:32,2564-03-09 23:50:32,0.368s,PASSED
+"verifyTextPresent(""ไม่สามารถเพิ่มข้อมูลได้ค่ะ !"", false)",Edge Chromium 89,,,2564-03-09 23:50:32,2564-03-09 23:50:32,0.096s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-09 23:50:32,2564-03-09 23:50:33,0.900s,PASSED

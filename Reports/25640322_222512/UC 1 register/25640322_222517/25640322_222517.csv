@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 1 register,Chrome 89.0.4389.90,,,2564-03-22 22:25:42,2564-03-22 22:26:38,55.481s,PASSED
+,,,,,,,
+Test Cases/UC1_Register/TC 101 Register pass,Chrome 89.0.4389.90,,,2564-03-22 22:25:43,2564-03-22 22:26:09,25.320s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-22 22:25:44,2564-03-22 22:25:47,3.060s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:47,2564-03-22 22:25:49,2.208s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Register""))",Chrome 89.0.4389.90,,,2564-03-22 22:25:49,2564-03-22 22:25:50,1.415s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Std_ID""), ""614259399"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:50,2564-03-22 22:25:51,0.905s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__classroom""), ""61/100"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:51,2564-03-22 22:25:52,0.709s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Name_LastName""), ""วรวัฒน์ รัตโนสถ"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:52,2564-03-22 22:25:53,0.726s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__ID_Card""), ""1729800230543"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:53,2564-03-22 22:25:54,0.874s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Sex""))",Chrome 89.0.4389.90,,,2564-03-22 22:25:54,2564-03-22 22:25:54,0.381s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Tel""), ""00000000"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:54,2564-03-22 22:25:55,0.717s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__E_mail""), ""ww"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:55,2564-03-22 22:25:55,0.684s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Facebook""), ""www"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:55,2564-03-22 22:25:56,0.671s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Name_LastName""), ""วรวัฒน์ "")",Chrome 89.0.4389.90,,,2564-03-22 22:25:56,2564-03-22 22:25:57,0.690s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__End_Year""), ""61"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:57,2564-03-22 22:25:57,0.675s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__district""), ""บางตาเถร"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:57,2564-03-22 22:25:58,0.692s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__canton""), ""สองพี่น้อง"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:58,2564-03-22 22:25:59,0.739s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__province""), ""สุพรรณบุรี"")",Chrome 89.0.4389.90,,,2564-03-22 22:25:59,2564-03-22 22:26:00,1.320s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Company_Name""), ""wer"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:00,2564-03-22 22:26:01,0.695s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/textarea__Company_Address""), ""wer"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:01,2564-03-22 22:26:02,0.737s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Profession""), ""wab"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:02,2564-03-22 22:26:02,0.697s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Rank""), ""ceo"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:02,2564-03-22 22:26:03,0.675s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Postal_code""), ""72110"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:03,2564-03-22 22:26:04,0.725s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Company_Tel""), ""011110"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:04,2564-03-22 22:26:04,0.730s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Username""), ""earth4"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:04,2564-03-22 22:26:05,0.780s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Password""), ""16XdtzjBLPw="")",Chrome 89.0.4389.90,,,2564-03-22 22:26:05,2564-03-22 22:26:06,0.495s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Re_Password""), ""16XdtzjBLPw="")",Chrome 89.0.4389.90,,,2564-03-22 22:26:06,2564-03-22 22:26:06,0.453s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Instagram""), ""www"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:06,2564-03-22 22:26:07,0.678s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__submit""))",Chrome 89.0.4389.90,,,2564-03-22 22:26:07,2564-03-22 22:26:08,0.783s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-22 22:26:08,2564-03-22 22:26:09,0.999s,PASSED
+,,,,,,,
+Test Cases/UC1_Register/TC 102 Register pass,Chrome 89.0.4389.90,,,2564-03-22 22:26:09,2564-03-22 22:26:29,20.915s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-22 22:26:09,2564-03-22 22:26:11,2.059s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:11,2564-03-22 22:26:12,1.432s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Register""))",Chrome 89.0.4389.90,,,2564-03-22 22:26:12,2564-03-22 22:26:13,1.013s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Std_ID""))",Chrome 89.0.4389.90,,,2564-03-22 22:26:13,2564-03-22 22:26:14,0.549s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Std_ID""), ""614259400"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:14,2564-03-22 22:26:15,0.770s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__classroom""), ""61/100"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:15,2564-03-22 22:26:15,0.814s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Name_LastName""), ""วรวัฒน์ รัตโนสถ"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:15,2564-03-22 22:26:16,0.742s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__ID_Card""), ""1728900230654"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:16,2564-03-22 22:26:17,0.663s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__Sex""))",Chrome 89.0.4389.90,,,2564-03-22 22:26:17,2564-03-22 22:26:17,0.368s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Tel""), ""44"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:17,2564-03-22 22:26:18,0.670s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__E_mail""), ""44"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:18,2564-03-22 22:26:19,0.707s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Facebook""), ""456"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:19,2564-03-22 22:26:19,0.692s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Name_LastName""), ""ฟหก"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:19,2564-03-22 22:26:20,0.698s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__End_Year""), ""61"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:20,2564-03-22 22:26:21,0.691s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__district""), ""ตาเถร"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:21,2564-03-22 22:26:22,0.852s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__canton""), ""สองพี่น้อง"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:22,2564-03-22 22:26:22,0.715s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__province""), ""สุพรรณ"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:22,2564-03-22 22:26:23,0.796s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Company_Name""), ""บลยำ"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:23,2564-03-22 22:26:24,0.697s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/textarea__Company_Address""), ""บ้าน"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:24,2564-03-22 22:26:25,0.836s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Profession""), ""พี่น้อง"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:25,2564-03-22 22:26:25,0.718s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Rank""), ""น้อง"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:25,2564-03-22 22:26:26,0.715s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Username""), ""wwweee"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:26,2564-03-22 22:26:27,0.715s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Password""), ""aeHFOx8jV/A="")",Chrome 89.0.4389.90,,,2564-03-22 22:26:27,2564-03-22 22:26:27,0.389s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Re_Password""), ""iGDxf8hSRT4="")",Chrome 89.0.4389.90,,,2564-03-22 22:26:27,2564-03-22 22:26:28,0.425s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__submit""))",Chrome 89.0.4389.90,,,2564-03-22 22:26:28,2564-03-22 22:26:28,0.730s,PASSED
+"verifyTextPresent(""ไม่สามารถเพิ่มข้อมูลได้ค่ะ !"", false)",Chrome 89.0.4389.90,,,2564-03-22 22:26:28,2564-03-22 22:26:29,0.309s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-22 22:26:29,2564-03-22 22:26:29,0.852s,PASSED
+,,,,,,,
+Test Cases/UC1_Register/TC 103 Register failed,Chrome 89.0.4389.90,,,2564-03-22 22:26:29,2564-03-22 22:26:38,8.166s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-22 22:26:30,2564-03-22 22:26:32,2.244s,PASSED
+"setViewPortSize(1600, 900)",Chrome 89.0.4389.90,,,2564-03-22 22:26:32,2564-03-22 22:26:32,0.317s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:32,2564-03-22 22:26:33,0.640s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Register""))",Chrome 89.0.4389.90,,,2564-03-22 22:26:33,2564-03-22 22:26:34,0.898s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Username""), ""earth"")",Chrome 89.0.4389.90,,,2564-03-22 22:26:34,2564-03-22 22:26:35,0.829s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Password""), ""VIjOZClaB9I="")",Chrome 89.0.4389.90,,,2564-03-22 22:26:35,2564-03-22 22:26:35,0.458s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Re_Password""), ""VIjOZClaB9I="")",Chrome 89.0.4389.90,,,2564-03-22 22:26:35,2564-03-22 22:26:36,0.406s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__submit""))",Chrome 89.0.4389.90,,,2564-03-22 22:26:36,2564-03-22 22:26:36,0.675s,PASSED
+"verifyTextPresent(""ไม่สามารถเพิ่มข้อมูลได้ค่ะ !"", false)",Chrome 89.0.4389.90,,,2564-03-22 22:26:36,2564-03-22 22:26:36,0.293s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-22 22:26:36,2564-03-22 22:26:38,1.138s,PASSED

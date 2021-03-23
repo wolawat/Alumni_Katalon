@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 3 Profile,Chrome 88.0.4324.190,,,2564-03-09 14:33:01,2564-03-09 14:41:06,8m - 4.182s,FAILED
+,,,,,,,
+Test Cases/Profile/TC 301 Profile pass,Chrome 88.0.4324.190,,,2564-03-09 14:33:18,2564-03-09 14:37:20,4m - 2.145s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.190,,,2564-03-09 14:33:18,2564-03-09 14:34:59,1m - 40.288s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 88.0.4324.190,,,2564-03-09 14:34:59,2564-03-09 14:36:01,1m - 1.840s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 88.0.4324.190,,,2564-03-09 14:36:01,2564-03-09 14:37:20,1m - 19.176s,FAILED
+,,,,,,,
+Test Cases/Profile/TC 302 Profile pass,Chrome 88.0.4324.190,,,2564-03-09 14:37:21,2564-03-09 14:40:18,2m - 56.977s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.190,,,2564-03-09 14:37:49,2564-03-09 14:38:15,26.384s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 88.0.4324.190,,,2564-03-09 14:38:15,2564-03-09 14:38:27,11.444s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 88.0.4324.190,,,2564-03-09 14:38:27,2564-03-09 14:38:31,3.726s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""614259052"")",Chrome 88.0.4324.190,,,2564-03-09 14:38:31,2564-03-09 14:38:38,7.713s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/form""))",Chrome 88.0.4324.190,,,2564-03-09 14:38:38,2564-03-09 14:38:42,3.570s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""earth"")",Chrome 88.0.4324.190,,,2564-03-09 14:38:42,2564-03-09 14:38:52,10.066s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""VIjOZClaB9I="")",Chrome 88.0.4324.190,,,2564-03-09 14:38:52,2564-03-09 14:39:29,37.238s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_login""))",Chrome 88.0.4324.190,,,2564-03-09 14:39:29,2564-03-09 14:39:46,16.951s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/button_""))",Chrome 88.0.4324.190,,,2564-03-09 14:39:46,2564-03-09 14:39:47,0.842s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Chrome 88.0.4324.190,,,2564-03-09 14:39:47,2564-03-09 14:39:55,7.780s,PASSED
+closeBrowser(),Chrome 88.0.4324.190,,,2564-03-09 14:39:55,2564-03-09 14:40:18,23.314s,PASSED
+,,,,,,,
+Test Cases/Profile/TC 303 Profile failed,Chrome 88.0.4324.190,,,2564-03-09 14:40:18,2564-03-09 14:41:06,47.313s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.190,,,2564-03-09 14:40:29,2564-03-09 14:40:47,17.913s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 88.0.4324.190,,,2564-03-09 14:40:47,2564-03-09 14:40:51,3.926s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 88.0.4324.190,,,2564-03-09 14:40:51,2564-03-09 14:40:52,0.916s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""earth"")",Chrome 88.0.4324.190,,,2564-03-09 14:40:52,2564-03-09 14:40:53,1.243s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""VIjOZClaB9I="")",Chrome 88.0.4324.190,,,2564-03-09 14:40:53,2564-03-09 14:40:54,0.476s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_login""))",Chrome 88.0.4324.190,,,2564-03-09 14:40:54,2564-03-09 14:40:56,2.526s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/button_""))",Chrome 88.0.4324.190,,,2564-03-09 14:40:56,2564-03-09 14:40:57,0.582s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Chrome 88.0.4324.190,,,2564-03-09 14:40:57,2564-03-09 14:40:58,0.946s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a__1""))",Chrome 88.0.4324.190,,,2564-03-09 14:40:58,2564-03-09 14:41:00,2.177s,PASSED
+"verifyTextPresent(""614259052"", false)",Chrome 88.0.4324.190,,,2564-03-09 14:41:00,2564-03-09 14:41:06,5.551s,FAILED

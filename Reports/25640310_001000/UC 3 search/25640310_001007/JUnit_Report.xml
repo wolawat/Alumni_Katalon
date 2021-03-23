@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC 3 search" time="105.105" tests="5" failures="0" skips="0" errors="0">
+   <testsuite name="UC 3 search" tests="5" failures="0" errors="0" time="105.105" skips="0" timestamp="2564-03-10 00:10:44" hostname="user - DESKTOP-IAP8AF6" id="Test Suites/UC 3 search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\OneDrive\\Desktop\\Katalon_Alumni\\Reports\\25640310_001000\\UC 3 search\\25640310_001007"/>
+         <property name="logFiles" value="C:\\Users\\user\\OneDrive\\Desktop\\Katalon_Alumni\\Reports\\25640310_001000\\UC 3 search\\25640310_001007\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - DESKTOP-IAP8AF6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Edge Chromium 89"/>
+         <property name="hostAddress" value="192.168.1.120"/>
+         <property name="sessionId" value="10e92c763a770002552e7125f2de394f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Search/TC 301 search by id" time="33.107" classname="Test Cases/Search/TC 301 search by id" status="PASSED">
+         <system-out><![CDATA[2564-03-10 00:10:50 - [TEST_CASE][PASSED] - Test Cases/Search/TC 301 search by id: Test Cases/Search/TC 301 search by id
+
+2564-03-10 00:10:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-10 00:10:55 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-10 00:10:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-10 00:11:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-10 00:11:01 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:02 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:02 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-10 00:11:05 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-10 00:11:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-10 00:11:07 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-10 00:11:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Username"), "thanayut1"): Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-10 00:11:08 - [MESSAGE][PASSED] - Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-10 00:11:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), "SFTQUhjBfIY="): Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-10 00:11:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-10 00:11:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-10 00:11:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-10 00:11:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/i__fas fa-search")): Object: 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-10 00:11:15 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-10 00:11:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/a_")): Object: 'Object Repository/search/Page_NPRU Alumni/a_' is clicked on
+
+2564-03-10 00:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/a_' is clicked on
+
+2564-03-10 00:11:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/Page_NPRU Alumni/input__Std_ID"), "614259052"): Text '614259052' is set on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-10 00:11:17 - [MESSAGE][PASSED] - Text '614259052' is set on object 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-10 00:11:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/search/Page_NPRU Alumni/input__Std_ID"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-10 00:11:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-10 00:11:20 - [TEST_STEP][PASSED] - verifyTextPresent("614259052", false): Text '614259052' is present on page 
+
+2564-03-10 00:11:20 - [MESSAGE][PASSED] - Text '614259052' is present on page 
+
+2564-03-10 00:11:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-10 00:11:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 302 search by name" time="14.47" classname="Test Cases/Search/TC 302 search by name" status="PASSED">
+         <system-out><![CDATA[2564-03-10 00:11:23 - [TEST_CASE][PASSED] - Test Cases/Search/TC 302 search by name: Test Cases/Search/TC 302 search by name
+
+2564-03-10 00:11:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-10 00:11:29 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-10 00:11:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-10 00:11:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-10 00:11:31 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:32 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:11:33 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:11:33 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-10 00:11:34 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-10 00:11:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "Thanayut Samsang"): Text 'Thanayut Samsang' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-10 00:11:35 - [MESSAGE][PASSED] - Text 'Thanayut Samsang' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-10 00:11:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:11:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:11:37 - [TEST_STEP][PASSED] - verifyTextPresent("Thanayut Samsang", false): Text 'Thanayut Samsang' is present on page 
+
+2564-03-10 00:11:37 - [MESSAGE][PASSED] - Text 'Thanayut Samsang' is present on page 
+
+2564-03-10 00:11:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-10 00:11:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 303 search by graduation year" time="12.408" classname="Test Cases/Search/TC 303 search by graduation year" status="PASSED">
+         <system-out><![CDATA[2564-03-10 00:11:38 - [TEST_CASE][PASSED] - Test Cases/Search/TC 303 search by graduation year: Test Cases/Search/TC 303 search by graduation year
+
+2564-03-10 00:11:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-10 00:11:39 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-10 00:11:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-10 00:11:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-10 00:11:42 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:43 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:43 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:11:44 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:11:44 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/search_buttonYear")): Object: 'Object Repository/search/Page_NPRU Alumni/search_buttonYear' is clicked on
+
+2564-03-10 00:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/search_buttonYear' is clicked on
+
+2564-03-10 00:11:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__End_Year"), "2561"): Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-10 00:11:46 - [MESSAGE][PASSED] - Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-10 00:11:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:11:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:11:49 - [TEST_STEP][PASSED] - verifyTextPresent("2561", false): Text '2561' is present on page 
+
+2564-03-10 00:11:49 - [MESSAGE][PASSED] - Text '2561' is present on page 
+
+2564-03-10 00:11:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-10 00:11:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 304 search by Email" time="15.984" classname="Test Cases/Search/TC 304 search by Email" status="PASSED">
+         <system-out><![CDATA[2564-03-10 00:11:51 - [TEST_CASE][PASSED] - Test Cases/Search/TC 304 search by Email: Test Cases/Search/TC 304 search by Email
+
+2564-03-10 00:11:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-10 00:11:53 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-10 00:11:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-10 00:11:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-10 00:11:57 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:58 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:11:58 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:12:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:12:01 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-10 00:12:03 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-10 00:12:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "614259052@webmail.npru.ac.th"): Text '614259052@webmail.npru.ac.th' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-10 00:12:04 - [MESSAGE][PASSED] - Text '614259052@webmail.npru.ac.th' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-10 00:12:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:12:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:12:05 - [TEST_STEP][PASSED] - verifyTextPresent("รหัสนักศึกษา", false): Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-10 00:12:05 - [MESSAGE][PASSED] - Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-10 00:12:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-10 00:12:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Search/TC 305 search by sex" time="20.853" classname="Test Cases/Search/TC 305 search by sex" status="PASSED">
+         <system-out><![CDATA[2564-03-10 00:12:07 - [TEST_CASE][PASSED] - Test Cases/Search/TC 305 search by sex: Test Cases/Search/TC 305 search by sex
+
+2564-03-10 00:12:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-10 00:12:10 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-10 00:12:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-10 00:12:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-10 00:12:14 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:12:15 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-10 00:12:15 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/search"): Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:12:17 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/search' successfully
+
+2564-03-10 00:12:17 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-10 00:12:19 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-10 00:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "ชาย"): Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-10 00:12:21 - [MESSAGE][PASSED] - Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-10 00:12:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:12:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-10 00:12:23 - [TEST_STEP][PASSED] - verifyTextPresent("รหัสนักศึกษา", false): Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-10 00:12:24 - [MESSAGE][PASSED] - Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-10 00:12:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-10 00:12:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2564-03-10 00:10:44 - [TEST_SUITE][PASSED] - UC 3 search: Test Cases/Search/TC 305 search by sex]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

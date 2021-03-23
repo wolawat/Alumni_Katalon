@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 1 Search Web,Chrome 87.0.4280.141,,,2564-01-26 16:03:52,2564-01-26 16:05:02,1m - 10.142s,PASSED
+,,,,,,,
+Test Cases/TC 1.001 Search Web by Keyword,Chrome 87.0.4280.141,,,2564-01-26 16:03:54,2564-01-26 16:04:26,32.174s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2564-01-26 16:03:54,2564-01-26 16:04:02,7.534s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 87.0.4280.141,,,2564-01-26 16:04:02,2564-01-26 16:04:19,16.755s,PASSED
+"setText(findTestObject(""Object Repository/Page_Yahoo/input_Search_Box""), ""npru"")",Chrome 87.0.4280.141,,,2564-01-26 16:04:19,2564-01-26 16:04:21,2.614s,PASSED
+"click(findTestObject(""Object Repository/Page_Yahoo/input_npru_Button""))",Chrome 87.0.4280.141,,,2564-01-26 16:04:21,2564-01-26 16:04:22,1.076s,PASSED
+"verifyTextPresent(""Nakhon Pathom Rajabhat University"", false)",Chrome 87.0.4280.141,,,2564-01-26 16:04:22,2564-01-26 16:04:25,2.786s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2564-01-26 16:04:25,2564-01-26 16:04:26,0.870s,PASSED
+,,,,,,,
+Test Cases/TC 1.002 Search Web by Keyword,Chrome 87.0.4280.141,,,2564-01-26 16:04:26,2564-01-26 16:04:43,16.495s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2564-01-26 16:04:27,2564-01-26 16:04:30,3.533s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 87.0.4280.141,,,2564-01-26 16:04:30,2564-01-26 16:04:36,6.123s,PASSED
+"setText(findTestObject(""Page_Yahoo/input_Search_Box""), ""Nintendo Switch"")",Chrome 87.0.4280.141,,,2564-01-26 16:04:36,2564-01-26 16:04:38,1.994s,PASSED
+"click(findTestObject(""Page_Yahoo/input_npru_Button""))",Chrome 87.0.4280.141,,,2564-01-26 16:04:38,2564-01-26 16:04:39,0.933s,PASSED
+"verifyTextPresent(""Mario"", false)",Chrome 87.0.4280.141,,,2564-01-26 16:04:39,2564-01-26 16:04:42,2.450s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2564-01-26 16:04:42,2564-01-26 16:04:43,0.755s,PASSED
+,,,,,,,
+Test Cases/TC 1.003 Search Web by Keyword,Chrome 87.0.4280.141,,,2564-01-26 16:04:43,2564-01-26 16:05:02,19.783s,PASSED
+"openBrowser("""")",Chrome 87.0.4280.141,,,2564-01-26 16:04:43,2564-01-26 16:04:46,3.299s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 87.0.4280.141,,,2564-01-26 16:04:46,2564-01-26 16:04:55,8.858s,PASSED
+"setText(findTestObject(""Page_Yahoo/input_Search_Box""), ""covid"")",Chrome 87.0.4280.141,,,2564-01-26 16:04:55,2564-01-26 16:04:56,0.971s,PASSED
+"click(findTestObject(""Page_Yahoo/input_npru_Button""))",Chrome 87.0.4280.141,,,2564-01-26 16:04:56,2564-01-26 16:04:57,0.740s,PASSED
+"verifyTextPresent(""COVID-19"", false)",Chrome 87.0.4280.141,,,2564-01-26 16:04:57,2564-01-26 16:05:02,4.715s,PASSED
+closeBrowser(),Chrome 87.0.4280.141,,,2564-01-26 16:05:02,2564-01-26 16:05:02,0.731s,PASSED

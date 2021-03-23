@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC 3 search" time="63.092" tests="5" failures="0" skips="0" errors="0">
+   <testsuite name="UC 3 search" tests="5" failures="0" errors="0" time="63.092" skips="0" timestamp="2564-03-23 19:56:39" hostname="Dell - DESKTOP-775C11H" id="Test Suites/UC 3 search">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_195630\\UC 3 search\\25640323_195630"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_195630\\UC 3 search\\25640323_195630\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-775C11H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.1.128"/>
+         <property name="sessionId" value="edbbd1a5a11c239aea12d41633ed8dd4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC3_Search/TC 301 search by id" time="16.933" classname="Test Cases/UC3_Search/TC 301 search by id" status="PASSED">
+         <system-out><![CDATA[2564-03-23 19:56:40 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 301 search by id: Test Cases/UC3_Search/TC 301 search by id
+
+2564-03-23 19:56:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 19:56:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 19:56:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 19:56:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 19:56:47 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:56:48 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:56:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:56:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:56:49 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:56:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:56:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:56:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:56:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:56:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a")): Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 19:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 19:56:52 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_id")): Object: 'Object Repository/search/Page_NPRU Alumni/button_id' is clicked on
+
+2564-03-23 19:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_id' is clicked on
+
+2564-03-23 19:56:53 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/input__Std_ID")): Object: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' is clicked on
+
+2564-03-23 19:56:54 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/input__Std_ID' is clicked on
+
+2564-03-23 19:56:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Std_ID"), "614259018"): Text '614259018' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-23 19:56:55 - [MESSAGE][PASSED] - Text '614259018' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-23 19:56:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:56:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:56:56 - [TEST_STEP][PASSED] - verifyTextPresent("ธนายุทธ สามสังข์", false): Text 'ธนายุทธ สามสังข์' is present on page 
+
+2564-03-23 19:56:57 - [MESSAGE][PASSED] - Text 'ธนายุทธ สามสังข์' is present on page 
+
+2564-03-23 19:56:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 19:56:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 302 search by name" time="11.135" classname="Test Cases/UC3_Search/TC 302 search by name" status="PASSED">
+         <system-out><![CDATA[2564-03-23 19:56:57 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 302 search by name: Test Cases/UC3_Search/TC 302 search by name
+
+2564-03-23 19:56:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 19:56:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 19:56:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 19:57:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 19:57:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:01 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:03 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:57:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:57:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a")): Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 19:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a' is clicked on
+
+2564-03-23 19:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a__1")): Object: 'Object Repository/Page_NPRU Alumni/a__1' is clicked on
+
+2564-03-23 19:57:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a__1' is clicked on
+
+2564-03-23 19:57:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "ธนายุทธ"): Text 'ธนายุทธ' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 19:57:06 - [MESSAGE][PASSED] - Text 'ธนายุทธ' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 19:57:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:07 - [TEST_STEP][PASSED] - verifyTextPresent("614259018", false): Text '614259018' is present on page 
+
+2564-03-23 19:57:08 - [MESSAGE][PASSED] - Text '614259018' is present on page 
+
+2564-03-23 19:57:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 19:57:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 303 search by school year" time="10.893" classname="Test Cases/UC3_Search/TC 303 search by school year" status="PASSED">
+         <system-out><![CDATA[2564-03-23 19:57:08 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 303 search by school year: Test Cases/UC3_Search/TC 303 search by school year
+
+2564-03-23 19:57:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 19:57:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 19:57:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 19:57:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 19:57:10 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:12 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:14 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/i__fas fa-search")): Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 19:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 19:57:16 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_yaer")): Object: 'Object Repository/search/Page_NPRU Alumni/button_yaer' is clicked on
+
+2564-03-23 19:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_yaer' is clicked on
+
+2564-03-23 19:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__End_Year"), "2561"): Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 19:57:18 - [MESSAGE][PASSED] - Text '2561' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 19:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:18 - [TEST_STEP][PASSED] - verifyTextPresent("61/100", false): Text '61/100' is present on page 
+
+2564-03-23 19:57:19 - [MESSAGE][PASSED] - Text '61/100' is present on page 
+
+2564-03-23 19:57:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 19:57:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 304 search by classroom" time="12.039" classname="Test Cases/UC3_Search/TC 304 search by classroom" status="PASSED">
+         <system-out><![CDATA[2564-03-23 19:57:19 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 304 search by classroom: Test Cases/UC3_Search/TC 304 search by classroom
+
+2564-03-23 19:57:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 19:57:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 19:57:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 19:57:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 19:57:23 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:26 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_login")): Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input_Register_login' is clicked on
+
+2564-03-23 19:57:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/i__fas fa-search")): Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 19:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 19:57:28 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_classroom")): Object: 'Object Repository/search/Page_NPRU Alumni/button_classroom' is clicked on
+
+2564-03-23 19:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_classroom' is clicked on
+
+2564-03-23 19:57:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__classroom"), "61/100"): Text '61/100' is set on object 'Object Repository/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 19:57:30 - [MESSAGE][PASSED] - Text '61/100' is set on object 'Object Repository/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 19:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:30 - [TEST_STEP][PASSED] - verifyTextPresent("2561", false): Text '2561' is present on page 
+
+2564-03-23 19:57:31 - [MESSAGE][PASSED] - Text '2561' is present on page 
+
+2564-03-23 19:57:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 19:57:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC3_Search/TC 305 search by city" time="10.452" classname="Test Cases/UC3_Search/TC 305 search by city" status="PASSED">
+         <system-out><![CDATA[2564-03-23 19:57:31 - [TEST_CASE][PASSED] - Test Cases/UC3_Search/TC 305 search by city: Test Cases/UC3_Search/TC 305 search by city
+
+2564-03-23 19:57:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 19:57:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 19:57:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 19:57:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 19:57:33 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 19:57:33 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 19:57:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 19:57:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:35 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 19:57:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Username"), "thanayut1"): Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:36 - [MESSAGE][PASSED] - Text 'thanayut1' is set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 19:57:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), "SFTQUhjBfIY="): Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/search/Page_NPRU Alumni/input_Register_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/search/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 19:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/search/Page_NPRU Alumni/i__fas fa-search")): Object: 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 19:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/i__fas fa-search' is clicked on
+
+2564-03-23 19:57:38 - [TEST_STEP][PASSED] - click(findTestObject("search/Page_NPRU Alumni/button_searchName")): Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-23 19:57:39 - [MESSAGE][PASSED] - Object: 'Object Repository/search/Page_NPRU Alumni/button_searchName' is clicked on
+
+2564-03-23 19:57:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__FName_LName"), "ชาย"): Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 19:57:40 - [MESSAGE][PASSED] - Text 'ชาย' is set on object 'Object Repository/Page_NPRU Alumni/input__FName_LName'
+
+2564-03-23 19:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__search")): Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__search' is clicked on
+
+2564-03-23 19:57:40 - [TEST_STEP][PASSED] - verifyTextPresent("รหัสนักศึกษา", false): Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-23 19:57:41 - [MESSAGE][PASSED] - Text 'รหัสนักศึกษา' is present on page 
+
+2564-03-23 19:57:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 19:57:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2564-03-23 19:56:39 - [TEST_SUITE][PASSED] - UC 3 search: Test Cases/UC3_Search/TC 305 search by city]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

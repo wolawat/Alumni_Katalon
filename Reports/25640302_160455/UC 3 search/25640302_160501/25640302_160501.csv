@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 3 search,Edge Chromium 88,,,2564-03-02 16:05:50,2564-03-02 16:08:36,2m - 46.044s,FAILED
+,,,,,,,
+Test Cases/Search/TC 101 search by id,Edge Chromium 88,,,2564-03-02 16:05:59,2564-03-02 16:06:37,38.140s,PASSED
+"openBrowser("""")",Edge Chromium 88,,,2564-03-02 16:06:01,2564-03-02 16:06:25,23.901s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/search"")",Edge Chromium 88,,,2564-03-02 16:06:25,2564-03-02 16:06:29,4.765s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Edge Chromium 88,,,2564-03-02 16:06:29,2564-03-02 16:06:32,2.440s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Std_ID""), ""614259017"")",Edge Chromium 88,,,2564-03-02 16:06:32,2564-03-02 16:06:34,1.953s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__search""))",Edge Chromium 88,,,2564-03-02 16:06:34,2564-03-02 16:06:37,2.749s,PASSED
+"verifyTextPresent(""สุรภา วรขัตร"", false)",Edge Chromium 88,,,2564-03-02 16:06:37,2564-03-02 16:06:37,0.406s,PASSED
+,,,,,,,
+Test Cases/Search/TC 102 search by name,Edge Chromium 88,,,2564-03-02 16:06:37,2564-03-02 16:07:44,1m - 6.579s,FAILED
+"openBrowser("""")",Edge Chromium 88,,,2564-03-02 16:06:41,2564-03-02 16:06:59,17.273s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/search"")",Edge Chromium 88,,,2564-03-02 16:06:59,2564-03-02 16:07:03,4.034s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Edge Chromium 88,,,2564-03-02 16:07:03,2564-03-02 16:07:09,6.244s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__FName_LName""), ""Thanayut Samsang"")",Edge Chromium 88,,,2564-03-02 16:07:09,2564-03-02 16:07:44,34.797s,FAILED
+,,,,,,,
+Test Cases/Search/TC 103 search by graduation year,Edge Chromium 88,,,2564-03-02 16:07:44,2564-03-02 16:08:36,52.018s,FAILED
+"openBrowser("""")",Edge Chromium 88,,,2564-03-02 16:07:45,2564-03-02 16:07:56,11.034s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/search"")",Edge Chromium 88,,,2564-03-02 16:07:56,2564-03-02 16:07:58,1.910s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Edge Chromium 88,,,2564-03-02 16:07:58,2564-03-02 16:08:00,1.391s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__End_Year""), ""2561"")",Edge Chromium 88,,,2564-03-02 16:08:00,2564-03-02 16:08:36,36.046s,FAILED

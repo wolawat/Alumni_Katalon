@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 2 login,Edge Chromium 89,,,2564-03-10 00:10:27,2564-03-10 00:11:31,1m - 4.109s,PASSED
+,,,,,,,
+Test Cases/login/TC 201 login pass,Edge Chromium 89,,,2564-03-10 00:10:34,2564-03-10 00:10:55,20.884s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-10 00:10:37,2564-03-10 00:10:46,9.105s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-10 00:10:46,2564-03-10 00:10:46,0.406s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 89,,,2564-03-10 00:10:46,2564-03-10 00:10:48,1.441s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Edge Chromium 89,,,2564-03-10 00:10:48,2564-03-10 00:10:49,0.880s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Edge Chromium 89,,,2564-03-10 00:10:49,2564-03-10 00:10:50,1.334s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Edge Chromium 89,,,2564-03-10 00:10:50,2564-03-10 00:10:51,0.907s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Edge Chromium 89,,,2564-03-10 00:10:51,2564-03-10 00:10:53,1.684s,PASSED
+"verifyTextPresent(""Welcome to"", false)",Edge Chromium 89,,,2564-03-10 00:10:53,2564-03-10 00:10:53,0.267s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-10 00:10:53,2564-03-10 00:10:55,2.147s,PASSED
+,,,,,,,
+Test Cases/login/TC 202 login failed,Edge Chromium 89,,,2564-03-10 00:10:55,2564-03-10 00:11:09,14.072s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-10 00:10:57,2564-03-10 00:11:01,4.111s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-10 00:11:01,2564-03-10 00:11:01,0.326s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 89,,,2564-03-10 00:11:01,2564-03-10 00:11:04,2.269s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Edge Chromium 89,,,2564-03-10 00:11:04,2564-03-10 00:11:05,1.407s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayutz"")",Edge Chromium 89,,,2564-03-10 00:11:05,2564-03-10 00:11:06,1.380s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Edge Chromium 89,,,2564-03-10 00:11:06,2564-03-10 00:11:08,1.084s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Edge Chromium 89,,,2564-03-10 00:11:08,2564-03-10 00:11:09,0.993s,PASSED
+"verifyAlertPresent(0, STOP_ON_FAILURE)",Edge Chromium 89,,,2564-03-10 00:11:09,2564-03-10 00:11:09,0.267s,PASSED
+alertText = getAlertText(),Edge Chromium 89,Get text alert on the alert when it's shown,,2564-03-10 00:11:09,2564-03-10 00:11:09,0.142s,PASSED
+"verifyMatch(alertText, ""กรุณาสมัครสมาชิกก่อนค่ะ!"", false)",Edge Chromium 89,Verify text alert is correct or not,,2564-03-10 00:11:09,2564-03-10 00:11:09,0.200s,PASSED
+,,,,,,,
+Test Cases/login/TC 203 login failed,Edge Chromium 89,,,2564-03-10 00:11:09,2564-03-10 00:11:31,22.288s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-10 00:11:14,2564-03-10 00:11:19,4.566s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-10 00:11:19,2564-03-10 00:11:20,1.217s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 89,,,2564-03-10 00:11:20,2564-03-10 00:11:21,1.560s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Edge Chromium 89,,,2564-03-10 00:11:21,2564-03-10 00:11:22,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Edge Chromium 89,,,2564-03-10 00:11:22,2564-03-10 00:11:24,1.450s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""qyB36BqYIPA="")",Edge Chromium 89,,,2564-03-10 00:11:24,2564-03-10 00:11:26,1.866s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Edge Chromium 89,,,2564-03-10 00:11:26,2564-03-10 00:11:28,2.121s,PASSED
+"verifyAlertPresent(0, STOP_ON_FAILURE)",Edge Chromium 89,,,2564-03-10 00:11:28,2564-03-10 00:11:28,0.255s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-10 00:11:28,2564-03-10 00:11:31,3.464s,PASSED

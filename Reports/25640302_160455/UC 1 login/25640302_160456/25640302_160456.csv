@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 1 login,Edge Chromium 88,,,2564-03-02 16:05:29,2564-03-02 16:07:29,1m - 59.824s,PASSED
+,,,,,,,
+Test Cases/login/TC 101 login pass,Edge Chromium 88,,,2564-03-02 16:05:34,2564-03-02 16:06:45,1m - 11.163s,PASSED
+"openBrowser("""")",Edge Chromium 88,,,2564-03-02 16:05:37,2564-03-02 16:06:11,34.127s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 88,,,2564-03-02 16:06:11,2564-03-02 16:06:30,18.694s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Edge Chromium 88,,,2564-03-02 16:06:30,2564-03-02 16:06:34,3.895s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Edge Chromium 88,,,2564-03-02 16:06:34,2564-03-02 16:06:38,4.434s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Edge Chromium 88,,,2564-03-02 16:06:38,2564-03-02 16:06:40,2.327s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Edge Chromium 88,,,2564-03-02 16:06:40,2564-03-02 16:06:43,2.681s,PASSED
+"verifyTextPresent(""Welcome to"", false)",Edge Chromium 88,,,2564-03-02 16:06:43,2564-03-02 16:06:43,0.405s,PASSED
+closeBrowser(),Edge Chromium 88,,,2564-03-02 16:06:43,2564-03-02 16:06:45,1.386s,PASSED
+,,,,,,,
+Test Cases/login/TC 102 login failed,Edge Chromium 88,,,2564-03-02 16:06:45,2564-03-02 16:07:06,21.626s,PASSED
+"openBrowser("""")",Edge Chromium 88,,,2564-03-02 16:06:48,2564-03-02 16:06:57,8.366s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 88,,,2564-03-02 16:06:57,2564-03-02 16:06:59,2.393s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Edge Chromium 88,,,2564-03-02 16:06:59,2564-03-02 16:07:00,1.421s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayutz"")",Edge Chromium 88,,,2564-03-02 16:07:00,2564-03-02 16:07:02,1.523s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Edge Chromium 88,,,2564-03-02 16:07:02,2564-03-02 16:07:03,0.825s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Edge Chromium 88,,,2564-03-02 16:07:03,2564-03-02 16:07:04,1.254s,PASSED
+"verifyAlertPresent(0, STOP_ON_FAILURE)",Edge Chromium 88,,,2564-03-02 16:07:04,2564-03-02 16:07:05,0.693s,PASSED
+alertText = getAlertText(),Edge Chromium 88,Get text alert on the alert when it's shown,,2564-03-02 16:07:05,2564-03-02 16:07:05,0.368s,PASSED
+"verifyMatch(alertText, ""กรุณาสมัครสมาชิกก่อนค่ะ!"", false)",Edge Chromium 88,Verify text alert is correct or not,,2564-03-02 16:07:05,2564-03-02 16:07:06,1.311s,PASSED
+,,,,,,,
+Test Cases/login/TC 103 login failed,Edge Chromium 88,,,2564-03-02 16:07:07,2564-03-02 16:07:29,22.256s,PASSED
+"openBrowser("""")",Edge Chromium 88,,,2564-03-02 16:07:10,2564-03-02 16:07:21,10.545s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 88,,,2564-03-02 16:07:21,2564-03-02 16:07:22,1.654s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Edge Chromium 88,,,2564-03-02 16:07:22,2564-03-02 16:07:23,0.661s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Edge Chromium 88,,,2564-03-02 16:07:23,2564-03-02 16:07:24,1.011s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""qyB36BqYIPA="")",Edge Chromium 88,,,2564-03-02 16:07:24,2564-03-02 16:07:25,0.663s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Edge Chromium 88,,,2564-03-02 16:07:25,2564-03-02 16:07:27,1.920s,PASSED
+"verifyAlertPresent(0, STOP_ON_FAILURE)",Edge Chromium 88,,,2564-03-02 16:07:27,2564-03-02 16:07:27,0.256s,PASSED
+closeBrowser(),Edge Chromium 88,,,2564-03-02 16:07:27,2564-03-02 16:07:29,2.098s,PASSED

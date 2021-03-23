@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC 2 register" time="252.825" tests="3" failures="2" skips="0" errors="0">
+   <testsuite name="UC 2 register" tests="3" failures="2" errors="0" time="252.825" skips="0" timestamp="2564-03-02 16:05:36" hostname="user - DESKTOP-IAP8AF6" id="Test Suites/UC 2 register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Tests Explorer\\Reports\\25640302_160455\\UC 2 register\\25640302_160459"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Tests Explorer\\Reports\\25640302_160455\\UC 2 register\\25640302_160459\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\user\\Katalon Studio\\Tests Explorer\\Reports\\25640302_160455\\UC 2 register\\25640302_160459\\1614676150087.png"/>
+         <property name="hostName" value="user - DESKTOP-IAP8AF6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+         <property name="browser" value="Edge Chromium 88"/>
+         <property name="hostAddress" value="192.168.1.120"/>
+         <property name="sessionId" value="4e03a0692b047852a4ca6f8b26374195"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Register/TC 201 Register pass" time="171.62" classname="Test Cases/Register/TC 201 Register pass" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/TC 201 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2564-03-02 16:05:43 - [TEST_CASE][FAILED] - Test Cases/Register/TC 201 Register pass: Test Cases/Register/TC 201 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2564-03-02 16:05:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-02 16:05:49 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-02 16:05:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-02 16:06:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-02 16:06:16 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-02 16:06:30 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-02 16:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Register")): Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-02 16:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-02 16:06:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Std_ID"), "614259055"): Text '614259055' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-02 16:06:41 - [MESSAGE][PASSED] - Text '614259055' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-02 16:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName"), "วรวัต รัตโนนสถ"): Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:06:42 - [MESSAGE][PASSED] - Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:06:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__ID_Card"), "1729800227859"): Text '1729800227859' is set on object 'Object Repository/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-02 16:06:43 - [MESSAGE][PASSED] - Text '1729800227859' is set on object 'Object Repository/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-02 16:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Sex")): Object: 'Object Repository/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-02 16:06:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-02 16:06:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/textarea__Address"), "88 995/1"): Text '88 995/1' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Address'
+
+2564-03-02 16:06:45 - [MESSAGE][PASSED] - Text '88 995/1' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Address'
+
+2564-03-02 16:06:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Tel"), "0654887953"): Text '0654887953' is set on object 'Object Repository/Page_NPRU Alumni/input__Tel'
+
+2564-03-02 16:06:46 - [MESSAGE][PASSED] - Text '0654887953' is set on object 'Object Repository/Page_NPRU Alumni/input__Tel'
+
+2564-03-02 16:06:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__E_mail"), "hfomck@gmail.com"): Text 'hfomck@gmail.com' is set on object 'Object Repository/Page_NPRU Alumni/input__E_mail'
+
+2564-03-02 16:06:48 - [MESSAGE][PASSED] - Text 'hfomck@gmail.com' is set on object 'Object Repository/Page_NPRU Alumni/input__E_mail'
+
+2564-03-02 16:06:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Facebook"), "gots"): Text 'gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Facebook'
+
+2564-03-02 16:06:52 - [MESSAGE][PASSED] - Text 'gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Facebook'
+
+2564-03-02 16:06:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Instagram"), "the_gots"): Text 'the_gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Instagram'
+
+2564-03-02 16:07:02 - [MESSAGE][PASSED] - Text 'the_gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Instagram'
+
+2564-03-02 16:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName")): Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:07:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName")): Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:07:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName"), "วรวัต รัตโนนสถ"): Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:07:10 - [MESSAGE][PASSED] - Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:07:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__End_Year"), "2565"): Text '2565' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-02 16:07:12 - [MESSAGE][PASSED] - Text '2565' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-02 16:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Company_Name"), "วรวัต รัตโนนสถ"): Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-02 16:07:12 - [MESSAGE][PASSED] - Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-02 16:07:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/textarea__Company_Address"), "88/4 155"): Text '88/4 155' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-02 16:07:14 - [MESSAGE][PASSED] - Text '88/4 155' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-02 16:07:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Profession"), "programmer"): Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Profession'
+
+2564-03-02 16:07:19 - [MESSAGE][PASSED] - Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Profession'
+
+2564-03-02 16:07:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Rank")): Object: 'Object Repository/Page_NPRU Alumni/input__Rank' is clicked on
+
+2564-03-02 16:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Rank' is clicked on
+
+2564-03-02 16:07:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/div_                                       _294fb4")): Object: 'Object Repository/Page_NPRU Alumni/div_                                       _294fb4' is clicked on
+
+2564-03-02 16:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/div_                                       _294fb4' is clicked on
+
+2564-03-02 16:07:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Rank"), "programmer"): Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Rank'
+
+2564-03-02 16:07:25 - [MESSAGE][PASSED] - Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Rank'
+
+2564-03-02 16:07:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Company_Tel"), "0659986698"): Text '0659986698' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-02 16:07:28 - [MESSAGE][PASSED] - Text '0659986698' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-02 16:07:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-02 16:07:29 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-02 16:07:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-02 16:07:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-02 16:07:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Re_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-02 16:07:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-02 16:07:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__submit")): Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-02 16:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-02 16:07:34 - [TEST_STEP][FAILED] - verifyTextPresent("สาขาวิศวกรรมซอฟต์แวร์", false): Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2564-03-02 16:07:34 - [MESSAGE][FAILED] - Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+)
+
+2564-03-02 16:08:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2564-03-02 16:08:35 - [MESSAGE][FAILED] - Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)]]></system-out>
+         <system-err><![CDATA[2564-03-02 16:05:43 - [TEST_CASE][FAILED] - Test Cases/Register/TC 201 Register pass: Test Cases/Register/TC 201 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC 202 Register pass" time="40.125" classname="Test Cases/Register/TC 202 Register pass" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Register/TC 202 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A Database Error Occurred' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 202 Register pass.run(TC 202 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'A Database Error Occurred' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2564-03-02 16:08:35 - [TEST_CASE][FAILED] - Test Cases/Register/TC 202 Register pass: Test Cases/Register/TC 202 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A Database Error Occurred' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 202 Register pass.run(TC 202 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'A Database Error Occurred' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2564-03-02 16:08:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-02 16:08:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2564-03-02 16:08:41 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-02 16:08:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-02 16:08:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-02 16:08:51 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-02 16:08:55 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-02 16:08:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Register")): Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-02 16:08:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-02 16:08:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Std_ID"), "614259052"): Text '614259052' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-02 16:08:58 - [MESSAGE][PASSED] - Text '614259052' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-02 16:08:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName"), "วรวัต รัตโนนสถ"): Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:08:58 - [MESSAGE][PASSED] - Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:08:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__ID_Card"), "1729800227859"): Text '1729800227859' is set on object 'Object Repository/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-02 16:08:59 - [MESSAGE][PASSED] - Text '1729800227859' is set on object 'Object Repository/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-02 16:08:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Sex")): Object: 'Object Repository/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-02 16:08:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-02 16:08:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/textarea__Address"), "88 995/1"): Text '88 995/1' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Address'
+
+2564-03-02 16:09:00 - [MESSAGE][PASSED] - Text '88 995/1' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Address'
+
+2564-03-02 16:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Tel"), "0654887953"): Text '0654887953' is set on object 'Object Repository/Page_NPRU Alumni/input__Tel'
+
+2564-03-02 16:09:01 - [MESSAGE][PASSED] - Text '0654887953' is set on object 'Object Repository/Page_NPRU Alumni/input__Tel'
+
+2564-03-02 16:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__E_mail"), "hfomck@gmail.com"): Text 'hfomck@gmail.com' is set on object 'Object Repository/Page_NPRU Alumni/input__E_mail'
+
+2564-03-02 16:09:01 - [MESSAGE][PASSED] - Text 'hfomck@gmail.com' is set on object 'Object Repository/Page_NPRU Alumni/input__E_mail'
+
+2564-03-02 16:09:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Facebook"), "gots"): Text 'gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Facebook'
+
+2564-03-02 16:09:02 - [MESSAGE][PASSED] - Text 'gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Facebook'
+
+2564-03-02 16:09:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Instagram"), "the_gots"): Text 'the_gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Instagram'
+
+2564-03-02 16:09:02 - [MESSAGE][PASSED] - Text 'the_gots' is set on object 'Object Repository/Page_NPRU Alumni/input__Instagram'
+
+2564-03-02 16:09:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName")): Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName")): Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-02 16:09:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName"), "วรวัต รัตโนนสถ"): Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:09:04 - [MESSAGE][PASSED] - Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-02 16:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__End_Year"), "2565"): Text '2565' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-02 16:09:04 - [MESSAGE][PASSED] - Text '2565' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-02 16:09:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Company_Name"), "วรวัต รัตโนนสถ"): Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-02 16:09:05 - [MESSAGE][PASSED] - Text 'วรวัต รัตโนนสถ' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-02 16:09:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/textarea__Company_Address"), "88/4 155"): Text '88/4 155' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-02 16:09:05 - [MESSAGE][PASSED] - Text '88/4 155' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-02 16:09:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Profession"), "programmer"): Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Profession'
+
+2564-03-02 16:09:06 - [MESSAGE][PASSED] - Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Profession'
+
+2564-03-02 16:09:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Rank")): Object: 'Object Repository/Page_NPRU Alumni/input__Rank' is clicked on
+
+2564-03-02 16:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Rank' is clicked on
+
+2564-03-02 16:09:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/div_                                       _294fb4")): Object: 'Object Repository/Page_NPRU Alumni/div_                                       _294fb4' is clicked on
+
+2564-03-02 16:09:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/div_                                       _294fb4' is clicked on
+
+2564-03-02 16:09:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Rank"), "programmer"): Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Rank'
+
+2564-03-02 16:09:07 - [MESSAGE][PASSED] - Text 'programmer' is set on object 'Object Repository/Page_NPRU Alumni/input__Rank'
+
+2564-03-02 16:09:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Company_Tel"), "0659986698"): Text '0659986698' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-02 16:09:07 - [MESSAGE][PASSED] - Text '0659986698' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-02 16:09:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Username"), "earth1"): Text 'earth1' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-02 16:09:08 - [MESSAGE][PASSED] - Text 'earth1' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-02 16:09:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-02 16:09:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-02 16:09:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Re_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-02 16:09:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-02 16:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__submit")): Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-02 16:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-02 16:09:09 - [TEST_STEP][FAILED] - verifyTextPresent("A Database Error Occurred", false): Unable to verify text 'A Database Error Occurred' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A Database Error Occurred' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 202 Register pass.run(TC 202 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'A Database Error Occurred' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2564-03-02 16:09:10 - [MESSAGE][FAILED] - Text 'A Database Error Occurred' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'A Database Error Occurred' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 202 Register pass.run(TC 202 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+)
+
+2564-03-02 16:09:15 - [MESSAGE][FAILED] - Unable to verify text 'A Database Error Occurred' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A Database Error Occurred' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 202 Register pass.run(TC 202 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'A Database Error Occurred' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\user\\Katalon Studio\\Tests Explorer\\Reports\\25640302_160455\\UC 2 register\\25640302_160459\\1614676150087.png]]]]></system-out>
+         <system-err><![CDATA[2564-03-02 16:08:35 - [TEST_CASE][FAILED] - Test Cases/Register/TC 202 Register pass: Test Cases/Register/TC 202 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A Database Error Occurred' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 202 Register pass.run(TC 202 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'A Database Error Occurred' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Register/TC 203 Register failed" time="30.393" classname="Test Cases/Register/TC 203 Register failed" status="PASSED">
+         <system-out><![CDATA[2564-03-02 16:09:16 - [TEST_CASE][PASSED] - Test Cases/Register/TC 203 Register failed: Test Cases/Register/TC 203 Register failed
+
+2564-03-02 16:09:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-02 16:09:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2564-03-02 16:09:20 - [MESSAGE][INFO] - Starting 'Edge Chromium' driver
+
+2564-03-02 16:09:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-02 16:09:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-02 16:09:33 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-02 16:09:35 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-02 16:09:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Register")): Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-02 16:09:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-02 16:09:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-02 16:09:40 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-02 16:09:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-02 16:09:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-02 16:09:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Re_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-02 16:09:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-02 16:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__submit")): Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-02 16:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-02 16:09:42 - [TEST_STEP][PASSED] - verifyTextPresent("ไม่สามารถเพิ่มข้อมูลได้ค่ะ !", false): Text 'ไม่สามารถเพิ่มข้อมูลได้ค่ะ !' is present on page 
+
+2564-03-02 16:09:43 - [MESSAGE][PASSED] - Text 'ไม่สามารถเพิ่มข้อมูลได้ค่ะ !' is present on page 
+
+2564-03-02 16:09:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-02 16:09:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2564-03-02 16:05:36 - [TEST_SUITE][FAILED] - UC 2 register: Test Cases/Register/TC 201 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2564-03-02 16:05:36 - [TEST_SUITE][FAILED] - UC 2 register: Test Cases/Register/TC 201 Register pass FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'สาขาวิศวกรรมซอฟต์แวร์' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1722)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC 201 Register pass.run(TC 201 Register pass:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614675899253.run(TempTestSuite1614675899253.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'สาขาวิศวกรรมซอฟต์แวร์' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

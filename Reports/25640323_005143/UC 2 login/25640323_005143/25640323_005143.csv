@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 2 login,Chrome 89.0.4389.90,,,2564-03-23 00:51:53,2564-03-23 00:52:18,24.592s,PASSED
+,,,,,,,
+Test Cases/UC2_login/TC 201 login pass,Chrome 89.0.4389.90,,,2564-03-23 00:51:54,2564-03-23 00:52:05,10.902s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 00:51:54,2564-03-23 00:51:59,4.564s,PASSED
+"setViewPortSize(1600, 900)",Chrome 89.0.4389.90,,,2564-03-23 00:51:59,2564-03-23 00:51:59,0.188s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 00:51:59,2564-03-23 00:52:01,1.342s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 00:52:01,2564-03-23 00:52:01,0.562s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Chrome 89.0.4389.90,,,2564-03-23 00:52:01,2564-03-23 00:52:02,0.750s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Chrome 89.0.4389.90,,,2564-03-23 00:52:02,2564-03-23 00:52:02,0.503s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Chrome 89.0.4389.90,,,2564-03-23 00:52:02,2564-03-23 00:52:04,1.461s,PASSED
+"verifyTextPresent(""Welcome to"", false)",Chrome 89.0.4389.90,,,2564-03-23 00:52:04,2564-03-23 00:52:04,0.471s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-23 00:52:04,2564-03-23 00:52:05,0.641s,PASSED
+,,,,,,,
+Test Cases/UC2_login/TC 202 login failed,Chrome 89.0.4389.90,,,2564-03-23 00:52:05,2564-03-23 00:52:11,6.302s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 00:52:05,2564-03-23 00:52:06,1.242s,PASSED
+"setViewPortSize(1600, 900)",Chrome 89.0.4389.90,,,2564-03-23 00:52:06,2564-03-23 00:52:07,0.174s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 00:52:07,2564-03-23 00:52:08,1.062s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 00:52:08,2564-03-23 00:52:08,0.586s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayutz"")",Chrome 89.0.4389.90,,,2564-03-23 00:52:08,2564-03-23 00:52:09,0.779s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Chrome 89.0.4389.90,,,2564-03-23 00:52:09,2564-03-23 00:52:10,0.446s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Chrome 89.0.4389.90,,,2564-03-23 00:52:10,2564-03-23 00:52:10,0.850s,PASSED
+"verifyAlertPresent(0, STOP_ON_FAILURE)",Chrome 89.0.4389.90,,,2564-03-23 00:52:10,2564-03-23 00:52:10,0.061s,PASSED
+alertText = getAlertText(),Chrome 89.0.4389.90,Get text alert on the alert when it's shown,,2564-03-23 00:52:10,2564-03-23 00:52:10,0.021s,PASSED
+"verifyMatch(alertText, ""กรุณาสมัครสมาชิกก่อนค่ะ!"", false)",Chrome 89.0.4389.90,Verify text alert is correct or not,,2564-03-23 00:52:10,2564-03-23 00:52:11,0.035s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-23 00:52:11,2564-03-23 00:52:11,0.750s,PASSED
+,,,,,,,
+Test Cases/UC2_login/TC 203 login failed,Chrome 89.0.4389.90,,,2564-03-23 00:52:11,2564-03-23 00:52:18,6.267s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 00:52:12,2564-03-23 00:52:13,1.321s,PASSED
+"setViewPortSize(1600, 900)",Chrome 89.0.4389.90,,,2564-03-23 00:52:13,2564-03-23 00:52:13,0.137s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 00:52:13,2564-03-23 00:52:14,0.986s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 00:52:14,2564-03-23 00:52:15,0.710s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Chrome 89.0.4389.90,,,2564-03-23 00:52:15,2564-03-23 00:52:15,0.732s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""qyB36BqYIPA="")",Chrome 89.0.4389.90,,,2564-03-23 00:52:15,2564-03-23 00:52:16,0.454s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Chrome 89.0.4389.90,,,2564-03-23 00:52:16,2564-03-23 00:52:17,0.898s,PASSED
+"verifyAlertPresent(0, STOP_ON_FAILURE)",Chrome 89.0.4389.90,,,2564-03-23 00:52:17,2564-03-23 00:52:17,0.013s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-23 00:52:17,2564-03-23 00:52:18,0.695s,PASSED

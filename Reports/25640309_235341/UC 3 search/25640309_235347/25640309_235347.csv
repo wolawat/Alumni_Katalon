@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 3 search,Edge Chromium 89,,,2564-03-09 23:55:57,2564-03-09 23:56:45,48.568s,PASSED
+,,,,,,,
+Test Cases/Search/TC 301 search by id,Edge Chromium 89,,,2564-03-09 23:55:59,2564-03-09 23:56:14,15.515s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:56:00,2564-03-09 23:56:04,4.404s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:56:04,2564-03-09 23:56:04,0.244s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Edge Chromium 89,,,2564-03-09 23:56:04,2564-03-09 23:56:07,2.688s,PASSED
+"click(findTestObject(""Object Repository/search/Page_NPRU Alumni/a_Login""))",Edge Chromium 89,,,2564-03-09 23:56:07,2564-03-09 23:56:08,0.730s,PASSED
+"setText(findTestObject(""Object Repository/search/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Edge Chromium 89,,,2564-03-09 23:56:08,2564-03-09 23:56:08,0.731s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/search/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Edge Chromium 89,,,2564-03-09 23:56:08,2564-03-09 23:56:09,0.662s,PASSED
+"sendKeys(findTestObject(""Object Repository/search/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Edge Chromium 89,,,2564-03-09 23:56:09,2564-03-09 23:56:10,1.064s,PASSED
+"click(findTestObject(""Object Repository/search/Page_NPRU Alumni/i__fas fa-search""))",Edge Chromium 89,,,2564-03-09 23:56:10,2564-03-09 23:56:11,0.642s,PASSED
+"click(findTestObject(""Object Repository/search/Page_NPRU Alumni/a_""))",Edge Chromium 89,,,2564-03-09 23:56:11,2564-03-09 23:56:12,0.940s,PASSED
+"setText(findTestObject(""Object Repository/search/Page_NPRU Alumni/input__Std_ID""), ""614259052"")",Edge Chromium 89,,,2564-03-09 23:56:12,2564-03-09 23:56:12,0.574s,PASSED
+"sendKeys(findTestObject(""Object Repository/search/Page_NPRU Alumni/input__Std_ID""), Keys.chord(ENTER))",Edge Chromium 89,,,2564-03-09 23:56:12,2564-03-09 23:56:13,0.590s,PASSED
+"verifyTextPresent(""614259052"", false)",Edge Chromium 89,,,2564-03-09 23:56:13,2564-03-09 23:56:13,0.200s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-09 23:56:13,2564-03-09 23:56:14,1.077s,PASSED
+,,,,,,,
+Test Cases/Search/TC 302 search by name,Edge Chromium 89,,,2564-03-09 23:56:14,2564-03-09 23:56:22,8.048s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:56:15,2564-03-09 23:56:17,1.591s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:56:17,2564-03-09 23:56:17,0.185s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/search"")",Edge Chromium 89,,,2564-03-09 23:56:17,2564-03-09 23:56:19,1.895s,PASSED
+"click(findTestObject(""search/Page_NPRU Alumni/button_searchName""))",Edge Chromium 89,,,2564-03-09 23:56:19,2564-03-09 23:56:19,0.834s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__FName_LName""), ""Thanayut Samsang"")",Edge Chromium 89,,,2564-03-09 23:56:19,2564-03-09 23:56:20,0.502s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__search""))",Edge Chromium 89,,,2564-03-09 23:56:20,2564-03-09 23:56:21,1.040s,PASSED
+"verifyTextPresent(""Thanayut Samsang"", false)",Edge Chromium 89,,,2564-03-09 23:56:21,2564-03-09 23:56:21,0.267s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-09 23:56:21,2564-03-09 23:56:22,0.857s,PASSED
+,,,,,,,
+Test Cases/Search/TC 303 search by graduation year,Edge Chromium 89,,,2564-03-09 23:56:22,2564-03-09 23:56:29,7.053s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:56:23,2564-03-09 23:56:25,2.019s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:56:25,2564-03-09 23:56:25,0.240s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/search"")",Edge Chromium 89,,,2564-03-09 23:56:25,2564-03-09 23:56:27,1.431s,PASSED
+"click(findTestObject(""search/Page_NPRU Alumni/search_buttonYear""))",Edge Chromium 89,,,2564-03-09 23:56:27,2564-03-09 23:56:27,0.914s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__End_Year""), ""2561"")",Edge Chromium 89,,,2564-03-09 23:56:27,2564-03-09 23:56:28,0.388s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__search""))",Edge Chromium 89,,,2564-03-09 23:56:28,2564-03-09 23:56:28,0.439s,PASSED
+"verifyTextPresent(""2561"", false)",Edge Chromium 89,,,2564-03-09 23:56:28,2564-03-09 23:56:28,0.144s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-09 23:56:28,2564-03-09 23:56:29,0.830s,PASSED
+,,,,,,,
+Test Cases/Search/TC 304 search by Email,Edge Chromium 89,,,2564-03-09 23:56:29,2564-03-09 23:56:38,8.759s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:56:30,2564-03-09 23:56:32,1.585s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:56:32,2564-03-09 23:56:32,0.399s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/search"")",Edge Chromium 89,,,2564-03-09 23:56:32,2564-03-09 23:56:34,2.410s,PASSED
+"click(findTestObject(""search/Page_NPRU Alumni/button_searchName""))",Edge Chromium 89,,,2564-03-09 23:56:34,2564-03-09 23:56:35,0.915s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__FName_LName""), ""614259052@webmail.npru.ac.th"")",Edge Chromium 89,,,2564-03-09 23:56:35,2564-03-09 23:56:36,0.959s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__search""))",Edge Chromium 89,,,2564-03-09 23:56:36,2564-03-09 23:56:37,0.671s,PASSED
+"verifyTextPresent(""รหัสนักศึกษา"", false)",Edge Chromium 89,,,2564-03-09 23:56:37,2564-03-09 23:56:37,0.122s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-09 23:56:37,2564-03-09 23:56:38,0.895s,PASSED
+,,,,,,,
+Test Cases/Search/TC 305 search by sex,Edge Chromium 89,,,2564-03-09 23:56:38,2564-03-09 23:56:45,7.469s,PASSED
+"openBrowser("""")",Edge Chromium 89,,,2564-03-09 23:56:39,2564-03-09 23:56:40,1.587s,PASSED
+"setViewPortSize(1600, 900)",Edge Chromium 89,,,2564-03-09 23:56:40,2564-03-09 23:56:41,0.192s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/search"")",Edge Chromium 89,,,2564-03-09 23:56:41,2564-03-09 23:56:42,1.674s,PASSED
+"click(findTestObject(""search/Page_NPRU Alumni/button_searchName""))",Edge Chromium 89,,,2564-03-09 23:56:42,2564-03-09 23:56:43,0.936s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__FName_LName""), ""ชาย"")",Edge Chromium 89,,,2564-03-09 23:56:43,2564-03-09 23:56:44,0.390s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__search""))",Edge Chromium 89,,,2564-03-09 23:56:44,2564-03-09 23:56:44,0.644s,PASSED
+"verifyTextPresent(""รหัสนักศึกษา"", false)",Edge Chromium 89,,,2564-03-09 23:56:44,2564-03-09 23:56:44,0.205s,PASSED
+closeBrowser(),Edge Chromium 89,,,2564-03-09 23:56:44,2564-03-09 23:56:45,1.063s,PASSED

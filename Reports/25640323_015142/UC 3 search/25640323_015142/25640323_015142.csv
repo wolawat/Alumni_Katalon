@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+UC 3 search,Chrome 89.0.4389.90,,,2564-03-23 01:51:51,2564-03-23 01:54:22,2m - 30.424s,FAILED
+,,,,,,,
+Test Cases/UC3_Search/TC 301 search by id,Chrome 89.0.4389.90,,,2564-03-23 01:51:52,2564-03-23 01:52:10,17.767s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 01:51:53,2564-03-23 01:51:57,3.834s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 01:51:57,2564-03-23 01:51:58,1.648s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 01:51:58,2564-03-23 01:51:59,0.713s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""earth"")",Chrome 89.0.4389.90,,,2564-03-23 01:51:59,2564-03-23 01:52:00,0.819s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""VIjOZClaB9I="")",Chrome 89.0.4389.90,,,2564-03-23 01:52:00,2564-03-23 01:52:00,0.504s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_login""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:00,2564-03-23 01:52:01,1.106s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/i__fas fa-search""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:01,2564-03-23 01:52:03,1.453s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:03,2564-03-23 01:52:05,2.557s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__Std_ID""), ""614259333"")",Chrome 89.0.4389.90,,,2564-03-23 01:52:05,2564-03-23 01:52:06,0.931s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__search""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:06,2564-03-23 01:52:08,2.172s,PASSED
+"verifyTextPresent(""วรวัฒน์"", false)",Chrome 89.0.4389.90,,,2564-03-23 01:52:08,2564-03-23 01:52:09,0.551s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-23 01:52:09,2564-03-23 01:52:10,1.091s,PASSED
+,,,,,,,
+Test Cases/UC3_Search/TC 302 search by name,Chrome 89.0.4389.90,,,2564-03-23 01:52:10,2564-03-23 01:52:49,38.842s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 01:52:10,2564-03-23 01:52:12,1.513s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 01:52:12,2564-03-23 01:52:13,1.150s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:13,2564-03-23 01:52:14,0.540s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""earth"")",Chrome 89.0.4389.90,,,2564-03-23 01:52:14,2564-03-23 01:52:14,0.845s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""VIjOZClaB9I="")",Chrome 89.0.4389.90,,,2564-03-23 01:52:14,2564-03-23 01:52:15,0.424s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_login""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:15,2564-03-23 01:52:16,0.887s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/i__fas fa-search""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:16,2564-03-23 01:52:17,0.850s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:17,2564-03-23 01:52:17,0.667s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__FName_LName""), ""วรวัฒน์"")",Chrome 89.0.4389.90,,,2564-03-23 01:52:17,2564-03-23 01:52:49,31.679s,FAILED
+,,,,,,,
+Test Cases/UC3_Search/TC 303 search by school year,Chrome 89.0.4389.90,,,2564-03-23 01:52:49,2564-03-23 01:53:28,39.529s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 01:52:49,2564-03-23 01:52:51,2.124s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 01:52:51,2564-03-23 01:52:53,1.342s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:53,2564-03-23 01:52:53,0.522s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""earth"")",Chrome 89.0.4389.90,,,2564-03-23 01:52:53,2564-03-23 01:52:54,0.718s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""VIjOZClaB9I="")",Chrome 89.0.4389.90,,,2564-03-23 01:52:54,2564-03-23 01:52:54,0.395s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_login""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:54,2564-03-23 01:52:55,0.910s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/i__fas fa-search""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:55,2564-03-23 01:52:56,0.807s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Chrome 89.0.4389.90,,,2564-03-23 01:52:56,2564-03-23 01:52:57,0.833s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__End_Year""), ""2561"")",Chrome 89.0.4389.90,,,2564-03-23 01:52:57,2564-03-23 01:53:28,31.543s,FAILED
+,,,,,,,
+Test Cases/UC3_Search/TC 304 search by classroom,Chrome 89.0.4389.90,,,2564-03-23 01:53:28,2564-03-23 01:54:09,40.730s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 01:53:29,2564-03-23 01:53:31,2.169s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 01:53:31,2564-03-23 01:53:34,2.937s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 01:53:34,2564-03-23 01:53:34,0.535s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Username""), ""earth"")",Chrome 89.0.4389.90,,,2564-03-23 01:53:34,2564-03-23 01:53:35,0.717s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_Password""), ""VIjOZClaB9I="")",Chrome 89.0.4389.90,,,2564-03-23 01:53:35,2564-03-23 01:53:36,0.411s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input_Register_login""))",Chrome 89.0.4389.90,,,2564-03-23 01:53:36,2564-03-23 01:53:36,0.872s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/i__fas fa-search""))",Chrome 89.0.4389.90,,,2564-03-23 01:53:36,2564-03-23 01:53:37,0.542s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/a_""))",Chrome 89.0.4389.90,,,2564-03-23 01:53:37,2564-03-23 01:53:38,0.606s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__classroom""), ""61/100"")",Chrome 89.0.4389.90,,,2564-03-23 01:53:38,2564-03-23 01:54:09,31.634s,FAILED
+,,,,,,,
+Test Cases/UC3_Search/TC 305 search by city,Chrome 89.0.4389.90,,,2564-03-23 01:54:09,2564-03-23 01:54:22,12.515s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2564-03-23 01:54:09,2564-03-23 01:54:12,2.413s,PASSED
+"setViewPortSize(1600, 900)",Chrome 89.0.4389.90,,,2564-03-23 01:54:12,2564-03-23 01:54:12,0.167s,PASSED
+"navigateToUrl(""http://localhost/Alumni/index.php/Alumni/index"")",Chrome 89.0.4389.90,,,2564-03-23 01:54:12,2564-03-23 01:54:14,2.136s,PASSED
+"click(findTestObject(""Object Repository/search/Page_NPRU Alumni/a_Login""))",Chrome 89.0.4389.90,,,2564-03-23 01:54:14,2564-03-23 01:54:15,0.568s,PASSED
+"setText(findTestObject(""Object Repository/search/Page_NPRU Alumni/input_Register_Username""), ""thanayut1"")",Chrome 89.0.4389.90,,,2564-03-23 01:54:15,2564-03-23 01:54:16,0.735s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/search/Page_NPRU Alumni/input_Register_Password""), ""SFTQUhjBfIY="")",Chrome 89.0.4389.90,,,2564-03-23 01:54:16,2564-03-23 01:54:16,0.447s,PASSED
+"sendKeys(findTestObject(""Object Repository/search/Page_NPRU Alumni/input_Register_Password""), Keys.chord(ENTER))",Chrome 89.0.4389.90,,,2564-03-23 01:54:16,2564-03-23 01:54:17,0.974s,PASSED
+"click(findTestObject(""Object Repository/search/Page_NPRU Alumni/i__fas fa-search""))",Chrome 89.0.4389.90,,,2564-03-23 01:54:17,2564-03-23 01:54:18,0.683s,PASSED
+"click(findTestObject(""search/Page_NPRU Alumni/button_searchName""))",Chrome 89.0.4389.90,,,2564-03-23 01:54:18,2564-03-23 01:54:18,0.687s,PASSED
+"setText(findTestObject(""Object Repository/Page_NPRU Alumni/input__FName_LName""), ""ชาย"")",Chrome 89.0.4389.90,,,2564-03-23 01:54:18,2564-03-23 01:54:19,0.828s,PASSED
+"click(findTestObject(""Object Repository/Page_NPRU Alumni/input__search""))",Chrome 89.0.4389.90,,,2564-03-23 01:54:19,2564-03-23 01:54:20,0.828s,PASSED
+"verifyTextPresent(""รหัสนักศึกษา"", false)",Chrome 89.0.4389.90,,,2564-03-23 01:54:20,2564-03-23 01:54:21,0.558s,PASSED
+closeBrowser(),Chrome 89.0.4389.90,,,2564-03-23 01:54:21,2564-03-23 01:54:22,1.227s,PASSED

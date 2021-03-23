@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC 1 register" time="237.424" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="UC 1 register" tests="3" failures="0" errors="0" time="237.424" skips="0" timestamp="2564-03-23 23:35:27" hostname="Dell - DESKTOP-775C11H" id="Test Suites/UC 1 register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_233456\\UC 1 register\\25640323_233502"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_233456\\UC 1 register\\25640323_233502\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-775C11H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.1.128"/>
+         <property name="sessionId" value="dd5e67a2e74b81653e529558614136f1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC1_Register/TC 101 Register pass" time="107.654" classname="Test Cases/UC1_Register/TC 101 Register pass" status="PASSED">
+         <system-out><![CDATA[2564-03-23 23:35:28 - [TEST_CASE][PASSED] - Test Cases/UC1_Register/TC 101 Register pass: Test Cases/UC1_Register/TC 101 Register pass
+
+2564-03-23 23:35:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 23:35:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 23:35:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 23:35:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 23:35:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:35:34 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:35:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Register")): Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-23 23:35:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-23 23:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Std_ID"), "614259100"): Text '614259100' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-23 23:35:36 - [MESSAGE][PASSED] - Text '614259100' is set on object 'Object Repository/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-23 23:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__classroom"), "61/1"): Text '61/1' is set on object 'Object Repository/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 23:35:37 - [MESSAGE][PASSED] - Text '61/1' is set on object 'Object Repository/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 23:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName"), "ออ อด"): Text 'ออ อด' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-23 23:35:37 - [MESSAGE][PASSED] - Text 'ออ อด' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-23 23:35:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__ID_Card"), "1234567891234"): Text '1234567891234' is set on object 'Object Repository/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-23 23:35:38 - [MESSAGE][PASSED] - Text '1234567891234' is set on object 'Object Repository/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-23 23:35:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__Sex")): Object: 'Object Repository/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-23 23:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-23 23:35:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Tel"), "0231456987"): Text '0231456987' is set on object 'Object Repository/Page_NPRU Alumni/input__Tel'
+
+2564-03-23 23:35:39 - [MESSAGE][PASSED] - Text '0231456987' is set on object 'Object Repository/Page_NPRU Alumni/input__Tel'
+
+2564-03-23 23:35:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__E_mail"), "w@gmail.com"): Text 'w@gmail.com' is set on object 'Object Repository/Page_NPRU Alumni/input__E_mail'
+
+2564-03-23 23:35:40 - [MESSAGE][PASSED] - Text 'w@gmail.com' is set on object 'Object Repository/Page_NPRU Alumni/input__E_mail'
+
+2564-03-23 23:35:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Facebook"), "f"): Text 'f' is set on object 'Object Repository/Page_NPRU Alumni/input__Facebook'
+
+2564-03-23 23:35:41 - [MESSAGE][PASSED] - Text 'f' is set on object 'Object Repository/Page_NPRU Alumni/input__Facebook'
+
+2564-03-23 23:35:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Instagram"), "ig"): Text 'ig' is set on object 'Object Repository/Page_NPRU Alumni/input__Instagram'
+
+2564-03-23 23:35:42 - [MESSAGE][PASSED] - Text 'ig' is set on object 'Object Repository/Page_NPRU Alumni/input__Instagram'
+
+2564-03-23 23:35:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Name_LastName"), "qw"): Text 'qw' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-23 23:35:43 - [MESSAGE][PASSED] - Text 'qw' is set on object 'Object Repository/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-23 23:35:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__End_Year"), "su"): Text 'su' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 23:35:45 - [MESSAGE][PASSED] - Text 'su' is set on object 'Object Repository/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 23:35:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__district"), "บล"): Text 'บล' is set on object 'Object Repository/Page_NPRU Alumni/input__district'
+
+2564-03-23 23:35:48 - [MESSAGE][PASSED] - Text 'บล' is set on object 'Object Repository/Page_NPRU Alumni/input__district'
+
+2564-03-23 23:35:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__canton"), "สอง"): Text 'สอง' is set on object 'Object Repository/Page_NPRU Alumni/input__canton'
+
+2564-03-23 23:35:49 - [MESSAGE][PASSED] - Text 'สอง' is set on object 'Object Repository/Page_NPRU Alumni/input__canton'
+
+2564-03-23 23:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__province"), "สุ1000"): Text 'สุ1000' is set on object 'Object Repository/Page_NPRU Alumni/input__province'
+
+2564-03-23 23:35:50 - [MESSAGE][PASSED] - Text 'สุ1000' is set on object 'Object Repository/Page_NPRU Alumni/input__province'
+
+2564-03-23 23:35:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Postal_code"), "72110"): Text '72110' is set on object 'Object Repository/Page_NPRU Alumni/input__Postal_code'
+
+2564-03-23 23:35:52 - [MESSAGE][PASSED] - Text '72110' is set on object 'Object Repository/Page_NPRU Alumni/input__Postal_code'
+
+2564-03-23 23:35:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Company_Name"), "ยวย"): Text 'ยวย' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-23 23:35:59 - [MESSAGE][PASSED] - Text 'ยวย' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-23 23:35:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/textarea__Company_Address"), "12/100"): Text '12/100' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-23 23:36:06 - [MESSAGE][PASSED] - Text '12/100' is set on object 'Object Repository/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-23 23:36:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Profession"), "we"): Text 'we' is set on object 'Object Repository/Page_NPRU Alumni/input__Profession'
+
+2564-03-23 23:36:07 - [MESSAGE][PASSED] - Text 'we' is set on object 'Object Repository/Page_NPRU Alumni/input__Profession'
+
+2564-03-23 23:36:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Rank"), "web"): Text 'web' is set on object 'Object Repository/Page_NPRU Alumni/input__Rank'
+
+2564-03-23 23:36:08 - [MESSAGE][PASSED] - Text 'web' is set on object 'Object Repository/Page_NPRU Alumni/input__Rank'
+
+2564-03-23 23:36:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Company_Tel"), "098723456"): Text '098723456' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-23 23:36:10 - [MESSAGE][PASSED] - Text '098723456' is set on object 'Object Repository/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-23 23:36:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Username"), "earth111"): Text 'earth111' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-23 23:36:13 - [MESSAGE][PASSED] - Text 'earth111' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-23 23:36:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-23 23:36:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-23 23:36:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Re_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-23 23:36:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-23 23:36:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__submit")): Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-23 23:36:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-23 23:36:51 - [TEST_STEP][PASSED] - verifyTextPresent("ไม่สามารถเพิ่มข้อมูลได้ค่ะ !", false): Text 'ไม่สามารถเพิ่มข้อมูลได้ค่ะ !' is present on page 
+
+2564-03-23 23:36:52 - [MESSAGE][PASSED] - Text 'ไม่สามารถเพิ่มข้อมูลได้ค่ะ !' is present on page 
+
+2564-03-23 23:36:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 23:37:15 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2564-03-23 23:37:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC1_Register/TC 102 Register pass" time="108.597" classname="Test Cases/UC1_Register/TC 102 Register pass" status="PASSED">
+         <system-out><![CDATA[2564-03-23 23:37:17 - [TEST_CASE][PASSED] - Test Cases/UC1_Register/TC 102 Register pass: Test Cases/UC1_Register/TC 102 Register pass
+
+2564-03-23 23:37:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 23:37:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 23:37:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 23:37:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 23:37:59 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:38:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:38:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/reg/Page_NPRU Alumni/a_Register")): Object: 'Object Repository/reg/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-23 23:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/reg/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-23 23:38:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Std_ID"), "714259015"): Text '714259015' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-23 23:38:10 - [MESSAGE][PASSED] - Text '714259015' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Std_ID'
+
+2564-03-23 23:38:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__classroom"), "61/100"): Text '61/100' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 23:38:11 - [MESSAGE][PASSED] - Text '61/100' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 23:38:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Name_LastName"), "holloween"): Text 'holloween' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-23 23:38:12 - [MESSAGE][PASSED] - Text 'holloween' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName'
+
+2564-03-23 23:38:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__ID_Card"), "1729800227189"): Text '1729800227189' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-23 23:38:13 - [MESSAGE][PASSED] - Text '1729800227189' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__ID_Card'
+
+2564-03-23 23:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Sex")): Object: 'Object Repository/reg/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-23 23:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/reg/Page_NPRU Alumni/input__Sex' is clicked on
+
+2564-03-23 23:38:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Tel"), "0657756982"): Text '0657756982' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Tel'
+
+2564-03-23 23:38:15 - [MESSAGE][PASSED] - Text '0657756982' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Tel'
+
+2564-03-23 23:38:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__E_mail"), "noch@gmail.com"): Text 'noch@gmail.com' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__E_mail'
+
+2564-03-23 23:38:16 - [MESSAGE][PASSED] - Text 'noch@gmail.com' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__E_mail'
+
+2564-03-23 23:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Facebook"), "facebook"): Text 'facebook' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Facebook'
+
+2564-03-23 23:38:17 - [MESSAGE][PASSED] - Text 'facebook' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Facebook'
+
+2564-03-23 23:38:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Instagram"), "instagram"): Text 'instagram' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Instagram'
+
+2564-03-23 23:38:18 - [MESSAGE][PASSED] - Text 'instagram' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Instagram'
+
+2564-03-23 23:38:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Name_LastName")): Object: 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-23 23:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-23 23:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Name_LastName")): Object: 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-23 23:38:35 - [MESSAGE][PASSED] - Object: 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName' is clicked on
+
+2564-03-23 23:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("reg/Page_NPRU Alumni/input__Name_LastName - Copy"), "holloween"): Text 'holloween' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName - Copy'
+
+2564-03-23 23:38:36 - [MESSAGE][PASSED] - Text 'holloween' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Name_LastName - Copy'
+
+2564-03-23 23:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__canton")): Object: 'Object Repository/reg/Page_NPRU Alumni/input__canton' is clicked on
+
+2564-03-23 23:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/reg/Page_NPRU Alumni/input__canton' is clicked on
+
+2564-03-23 23:38:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__End_Year"), "2561"): Text '2561' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 23:38:38 - [MESSAGE][PASSED] - Text '2561' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__End_Year'
+
+2564-03-23 23:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__district"), "bangtatan"): Text 'bangtatan' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__district'
+
+2564-03-23 23:38:38 - [MESSAGE][PASSED] - Text 'bangtatan' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__district'
+
+2564-03-23 23:38:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__canton"), "songphinong"): Text 'songphinong' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__canton'
+
+2564-03-23 23:38:39 - [MESSAGE][PASSED] - Text 'songphinong' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__canton'
+
+2564-03-23 23:38:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__province"), "supan"): Text 'supan' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__province'
+
+2564-03-23 23:38:40 - [MESSAGE][PASSED] - Text 'supan' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__province'
+
+2564-03-23 23:38:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Postal_code"), "72110"): Text '72110' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Postal_code'
+
+2564-03-23 23:38:41 - [MESSAGE][PASSED] - Text '72110' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Postal_code'
+
+2564-03-23 23:38:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Company_Name")): Object: 'Object Repository/reg/Page_NPRU Alumni/input__Company_Name' is clicked on
+
+2564-03-23 23:38:42 - [MESSAGE][PASSED] - Object: 'Object Repository/reg/Page_NPRU Alumni/input__Company_Name' is clicked on
+
+2564-03-23 23:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__classroom"), "61/101"): Text '61/101' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 23:38:42 - [MESSAGE][PASSED] - Text '61/101' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__classroom'
+
+2564-03-23 23:38:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Company_Name"), "noch"): Text 'noch' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-23 23:38:43 - [MESSAGE][PASSED] - Text 'noch' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Company_Name'
+
+2564-03-23 23:38:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/textarea__Company_Address"), "1158"): Text '1158' is set on object 'Object Repository/reg/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-23 23:38:45 - [MESSAGE][PASSED] - Text '1158' is set on object 'Object Repository/reg/Page_NPRU Alumni/textarea__Company_Address'
+
+2564-03-23 23:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Profession"), "dev"): Text 'dev' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Profession'
+
+2564-03-23 23:38:47 - [MESSAGE][PASSED] - Text 'dev' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Profession'
+
+2564-03-23 23:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Rank"), "dev"): Text 'dev' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Rank'
+
+2564-03-23 23:38:48 - [MESSAGE][PASSED] - Text 'dev' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Rank'
+
+2564-03-23 23:38:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Company_Tel"), "0654486950"): Text '0654486950' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-23 23:38:49 - [MESSAGE][PASSED] - Text '0654486950' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Company_Tel'
+
+2564-03-23 23:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Username"), "nochee"): Text 'nochee' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Username'
+
+2564-03-23 23:38:50 - [MESSAGE][PASSED] - Text 'nochee' is set on object 'Object Repository/reg/Page_NPRU Alumni/input__Username'
+
+2564-03-23 23:38:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/reg/Page_NPRU Alumni/input__Password'
+
+2564-03-23 23:38:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/reg/Page_NPRU Alumni/input__Password'
+
+2564-03-23 23:38:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__Re_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/reg/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-23 23:38:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/reg/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-23 23:38:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/reg/Page_NPRU Alumni/input__submit")): Object: 'Object Repository/reg/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-23 23:39:03 - [MESSAGE][PASSED] - Object: 'Object Repository/reg/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-23 23:39:03 - [TEST_STEP][PASSED] - verifyTextPresent("สาขาวิศวกรรมซอฟต์แวร์", false): Text 'สาขาวิศวกรรมซอฟต์แวร์' is present on page 
+
+2564-03-23 23:39:03 - [MESSAGE][PASSED] - Text 'สาขาวิศวกรรมซอฟต์แวร์' is present on page 
+
+2564-03-23 23:39:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 23:39:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC1_Register/TC 103 Register failed" time="15.167" classname="Test Cases/UC1_Register/TC 103 Register failed" status="PASSED">
+         <system-out><![CDATA[2564-03-23 23:39:06 - [TEST_CASE][PASSED] - Test Cases/UC1_Register/TC 103 Register failed: Test Cases/UC1_Register/TC 103 Register failed
+
+2564-03-23 23:39:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 23:39:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 23:39:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 23:39:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 23:39:12 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:39:12 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:39:12 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:39:15 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Register")): Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-23 23:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Register' is clicked on
+
+2564-03-23 23:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input__Username"), "earth"): Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-23 23:39:18 - [MESSAGE][PASSED] - Text 'earth' is set on object 'Object Repository/Page_NPRU Alumni/input__Username'
+
+2564-03-23 23:39:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-23 23:39:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Password'
+
+2564-03-23 23:39:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input__Re_Password"), "VIjOZClaB9I="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-23 23:39:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input__Re_Password'
+
+2564-03-23 23:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/input__submit")): Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-23 23:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/input__submit' is clicked on
+
+2564-03-23 23:39:20 - [TEST_STEP][PASSED] - verifyTextPresent("ไม่สามารถเพิ่มข้อมูลได้ค่ะ !", false): Text 'ไม่สามารถเพิ่มข้อมูลได้ค่ะ !' is present on page 
+
+2564-03-23 23:39:20 - [MESSAGE][PASSED] - Text 'ไม่สามารถเพิ่มข้อมูลได้ค่ะ !' is present on page 
+
+2564-03-23 23:39:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 23:39:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2564-03-23 23:35:27 - [TEST_SUITE][PASSED] - UC 1 register: Test Cases/UC1_Register/TC 103 Register failed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

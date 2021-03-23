@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="UC 2 login" time="513.276" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="UC 2 login" tests="3" failures="0" errors="0" time="513.276" skips="0" timestamp="2564-03-23 23:13:57" hostname="Dell - DESKTOP-775C11H" id="Test Suites/UC 2 login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_231310\\UC 2 login\\25640323_231319"/>
+         <property name="logFiles" value="C:\\Users\\Dell\\Desktop\\Katalon_Alumni\\Reports\\25640323_231310\\UC 2 login\\25640323_231319\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - DESKTOP-775C11H"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.1.128"/>
+         <property name="sessionId" value="28a4e97d1c2552e064c30cacf267c2d2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UC2_login/TC 201 login pass" time="62.884" classname="Test Cases/UC2_login/TC 201 login pass" status="PASSED">
+         <system-out><![CDATA[2564-03-23 23:13:58 - [TEST_CASE][PASSED] - Test Cases/UC2_login/TC 201 login pass: Test Cases/UC2_login/TC 201 login pass
+
+2564-03-23 23:13:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 23:13:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 23:13:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 23:14:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 23:14:14 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:14:30 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:14:30 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:14:41 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 23:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 23:14:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "thanayut1"): Text 'thanayut1' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 23:14:44 - [MESSAGE][PASSED] - Text 'thanayut1' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 23:14:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "SFTQUhjBfIY="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:14:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:14:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:14:54 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:14:54 - [TEST_STEP][PASSED] - verifyTextPresent("Welcome to", false): Text 'Welcome to' is present on page 
+
+2564-03-23 23:14:55 - [MESSAGE][PASSED] - Text 'Welcome to' is present on page 
+
+2564-03-23 23:14:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 23:15:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC2_login/TC 202 login failed" time="116.125" classname="Test Cases/UC2_login/TC 202 login failed" status="PASSED">
+         <system-out><![CDATA[2564-03-23 23:15:03 - [TEST_CASE][PASSED] - Test Cases/UC2_login/TC 202 login failed: Test Cases/UC2_login/TC 202 login failed
+
+2564-03-23 23:15:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 23:15:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 23:15:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 23:15:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 23:15:31 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:15:32 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:15:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:15:50 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:15:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 23:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 23:16:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "thanayutz"): Text 'thanayutz' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 23:16:16 - [MESSAGE][PASSED] - Text 'thanayutz' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 23:16:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "SFTQUhjBfIY="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:16:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:16:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:16:37 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:16:37 - [TEST_STEP][PASSED] - verifyAlertPresent(0, STOP_ON_FAILURE): Alert is present after 30 second(s).
+
+2564-03-23 23:16:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2564-03-23 23:16:39 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2564-03-23 23:16:39 - [TEST_STEP][PASSED] - alertText = getAlertText(): Get alert text successfully: 'กรุณาสมัครสมาชิกก่อนค่ะ!'
+
+2564-03-23 23:16:40 - [MESSAGE][PASSED] - Get alert text successfully: 'กรุณาสมัครสมาชิกก่อนค่ะ!'
+
+2564-03-23 23:16:41 - [TEST_STEP][PASSED] - verifyMatch(alertText, "กรุณาสมัครสมาชิกก่อนค่ะ!", false): Actual text 'กรุณาสมัครสมาชิกก่อนค่ะ!' and expected text 'กรุณาสมัครสมาชิกก่อนค่ะ!' are matched 
+
+2564-03-23 23:16:44 - [MESSAGE][PASSED] - Actual text 'กรุณาสมัครสมาชิกก่อนค่ะ!' and expected text 'กรุณาสมัครสมาชิกก่อนค่ะ!' are matched 
+
+2564-03-23 23:16:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 23:16:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UC2_login/TC 203 login failed" time="215.025" classname="Test Cases/UC2_login/TC 203 login failed" status="PASSED">
+         <system-out><![CDATA[2564-03-23 23:17:00 - [TEST_CASE][PASSED] - Test Cases/UC2_login/TC 203 login failed: Test Cases/UC2_login/TC 203 login failed
+
+2564-03-23 23:17:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2564-03-23 23:17:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2564-03-23 23:17:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2564-03-23 23:17:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2564-03-23 23:17:58 - [TEST_STEP][PASSED] - setViewPortSize(1600, 900): Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:18:00 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1600 and height = 900
+
+2564-03-23 23:18:00 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Alumni/index.php/Alumni/index"): Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:18:07 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Alumni/index.php/Alumni/index' successfully
+
+2564-03-23 23:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NPRU Alumni/a_Login")): Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 23:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NPRU Alumni/a_Login' is clicked on
+
+2564-03-23 23:18:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Username"), "thanayut1"): Text 'thanayut1' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 23:18:17 - [MESSAGE][PASSED] - Text 'thanayut1' is set on object 'Object Repository/Page_NPRU Alumni/input_Register_Username'
+
+2564-03-23 23:18:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), "qyB36BqYIPA="): Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:18:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:18:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_NPRU Alumni/input_Register_Password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:19:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_NPRU Alumni/input_Register_Password'
+
+2564-03-23 23:19:10 - [TEST_STEP][PASSED] - verifyAlertPresent(0, STOP_ON_FAILURE): Alert is present after 30 second(s).
+
+2564-03-23 23:19:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2564-03-23 23:19:10 - [MESSAGE][PASSED] - Alert is present after 30 second(s).
+
+2564-03-23 23:19:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2564-03-23 23:20:35 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2564-03-23 23:20:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2564-03-23 23:13:57 - [TEST_SUITE][PASSED] - UC 2 login: Test Cases/UC2_login/TC 203 login failed]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
